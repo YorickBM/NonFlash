@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6B556AD-BCEC-43D7-9F5C-00A016BCE7B4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Etap</RootNamespace>
+    <AssemblyName>Etap</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="1Client\Communication\ConnectionManager\ClientSocketManager.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\ConnectionHandling.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\ConnectionInformation.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\ConnectionState.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\GameSocketManager.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\GameSocketManagerStatics.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\IDataParser.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\ISocketManager.cs" />
+    <Compile Include="1Client\Communication\ConnectionManager\Socket Exceptions\SocketInitializationException.cs" />
+    <Compile Include="1Client\Communication\Encryption\Crypto\Prng\ARC4.cs" />
+    <Compile Include="1Client\Communication\Encryption\Crypto\RSA\RSAKey.cs" />
+    <Compile Include="1Client\Communication\Encryption\HabboEncryptionV2.cs" />
+    <Compile Include="1Client\Communication\Encryption\KeyExchange\DiffieHellman.cs" />
+    <Compile Include="1Client\Communication\Encryption\Keys\RSAKeys.cs" />
+    <Compile Include="1Client\Communication\GamePacketParser.cs" />
+    <Compile Include="1Client\Communication\InitialPacketParser.cs" />
+    <Compile Include="1Client\Communication\Interfaces\IServerPacket.cs" />
+    <Compile Include="1Client\Communication\MessageClass.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\BuildersClub\BCBorrowedItemsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\BuildersClub\BuildersClubMembershipComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogIndexComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogItemDiscountComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogPreferencesComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\ClientPacket.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\ClientPacketHeader.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\AuthenticationOKComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\AvailabilityStatusComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\GenericErrorComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\GetUserDataComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\InitCryptoComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\PongComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\SecretKeyComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\SetUniqueIdComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\UserObjectComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\UserPerksComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Handshake\UserRightsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Achievements\AchievementProgressedComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Achievements\AchievementScoreComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Achievements\AchievementUnlockedComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Achievements\BadgeDefinitionsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\AvatarEffects\AvatarEffectsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\AvatarEffects\FigureSetIdsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Badges\BadgesComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListNotificationComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Purse\HabboActivityPointNotificationComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Messenger\BuddyListComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Messenger\BuddyRequestsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Messenger\MessengerInitComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Misc\LatencyTestComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Moderation\CfhTopicsInitComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Moderation\ModeratorInitComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Moderation\ModeratorSupportTicketComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\FavouritesComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\FlatAccessDeniedComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\FlatCreatedComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorCollapsedCategoriesComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorFlatCatsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorLiftedRoomsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorMetaDataParserComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorPreferencesComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorSearchResultSetComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorSettingsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\UserFlatCatsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Notifications\MOTDNotificationComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\ChatComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\FloodControlComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\ShoutComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\UserTypingComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\WhisperComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\AlertNotificationHCMessageComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\HCGiftsAlertComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\MassEventComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RoomCustomizedAlertComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RoomErrorNotifComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RoomNotificationComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RooomCustomizedAlertComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Session\OpenConnectionComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Sound\SoundSettingsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Users\ScrSendUserInfoComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Catalog\GetCatalogIndexEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\GetUserDataEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GetGuestRoomEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GetNavigatorFlatsEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GetUserFlatCatsEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\NavigatorSearchEvent.cs" />
+    <Compile Include="1Client\Hotel\Game.cs" />
+    <Compile Include="1Client\Hotel\GameClients\GameClient.cs" />
+    <Compile Include="1Client\Hotel\GameClients\GameClientManager.cs" />
+    <Compile Include="1Client\Hotel\Games\GameData.cs" />
+    <Compile Include="1Client\Hotel\Games\GameDataManager.cs" />
+    <Compile Include="ImagesCode\Navigator\NavigatorContent.cs" />
+    <Compile Include="Engine\Navigator\NavigatorManager.cs" />
+    <Compile Include="Engine\Room\Group.cs" />
+    <Compile Include="Engine\Room\RoomEvent.cs" />
+    <Compile Include="Engine\Room\RoomData.cs" />
+    <Compile Include="Engine\User\User.cs" />
+    <Compile Include="ImagesCode\GameScreenManager.cs" />
+    <Compile Include="ImagesCode\Hoteloverzicht\HotelOverviewContent.cs" />
+    <Compile Include="ImagesCode\ImageManager.cs" />
+    <Compile Include="ImagesCode\Overlay\BasicInformationContent.cs" />
+    <Compile Include="ImagesCode\Overlay\OverlayRenderer.cs" />
+    <Compile Include="ImagesCode\Overlay\ToolbarContent.cs" />
+    <Compile Include="ImagesCode\Overlay\TransparentBlackBox.cs" />
+    <Compile Include="ImagesCode\Splashscreen\SplashScreenManager.cs" />
+    <Compile Include="ImagesCode\Util\Button.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\DropdownButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\HoverButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\AnimationSwitchHoverButton.cs" />
+    <Compile Include="ImagesCode\Navigator\InMenuButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\ToggleButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\SwitchHoverButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\ToggleHoverButton.cs" />
+    <Compile Include="ImagesCode\Util\CloseAndInfoUI.cs" />
+    <Compile Include="Engine\Communication\LanguageManager.cs" />
+    <Compile Include="ImagesCode\Util\Font.cs" />
+    <Compile Include="ImagesCode\Util\Image.cs" />
+    <Compile Include="ImagesCode\Util\Math\Vector2i.cs" />
+    <Compile Include="ImagesCode\Util\TextField.cs" />
+    <Compile Include="ResizeStatus.cs" />
+    <Compile Include="1Client\Communication\Packets\IPacketEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\GenerateSecretKeyEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\GetClientVersionEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\InfoRetrieveEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\InitCryptoEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\PingEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\SSOTicketEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\UpdateSSOTicketEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\UniqueIDEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Inventory\Furni\RequestFurniInventoryEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Messenger\FriendListUpdateEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Messenger\GetBuddyRequestEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Messenger\MessengerInitEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Misc\ClientVariablesEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Misc\EventTrackerEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Misc\LatencyTestEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Misc\PongMessageEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Moderation\CloseTicketEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Moderation\SubmitNewTicketEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\SaveNavigatorPositionEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\InitializeNewNavigatorEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Chat\CancelTypingEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Chat\ChatEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Chat\ShoutEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Chat\StartTypingEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Chat\WhisperEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Connection\GoToFlatEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Connection\OpenFlatConnectionEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\ServerPacket.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\ServerPacketHeader.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Users\ScrGetUserInfoEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\PacketManager.cs" />
+    <Compile Include="1Client\Communication\RCON\RCONConnection.cs" />
+    <Compile Include="1Client\Communication\RCON\RCONSocket.cs" />
+    <Compile Include="1Client\Core\BiosSteam.cs" />
+    <Compile Include="1Client\Core\ConfigurationData.cs" />
+    <Compile Include="1Client\Core\ConsoleCommandHandler.cs" />
+    <Compile Include="1Client\Core\ExceptionLogger.cs" />
+    <Compile Include="1Client\Core\ExtraSettings.cs" />
+    <Compile Include="1Client\Core\ImgCommand.cs" />
+    <Compile Include="1Client\Core\ServerStatusUpdater.cs" />
+    <Compile Include="1Client\RetroEnvironment.cs" />
+    <Compile Include="1Client\Utilities\Converter.cs" />
+    <Compile Include="1Client\Utilities\DataParser.cs" />
+    <Compile Include="1Client\Utilities\Enums.cs" />
+    <Compile Include="1Client\Utilities\HabboEncoding.cs" />
+    <Compile Include="1Client\Utilities\Logger.cs" />
+    <Compile Include="1Client\Utilities\Randomizer.cs" />
+    <Compile Include="1Client\Utilities\RandomNumber.cs" />
+    <Compile Include="1Client\Utilities\StringCharFilter.cs" />
+    <Compile Include="1Client\Utilities\TextHandling.cs" />
+    <Compile Include="1Client\Utilities\UnixTimestamp.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="PopUpManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Engine\Communication\DBConnect.cs" />
+    <Compile Include="Engine\Manager\InputManager.cs" />
+    <Compile Include="Engine\Manager\XMLManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Enyim.Caching, Version=2.16.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnyimMemcached.2.16.0\lib\net35\Enyim.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="HabboEncryption, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\HabboEncryption.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.18\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini, Version=1.1.0.0, Culture=neutral, PublicKeyToken=691faec150a7fa7b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Trove.Nini.1.1.0.0\lib\net20\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Beta.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Client\Buttons\InfoOnly.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Client\Buttons\CloseOnly.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Client\Buttons\CloseAndInfo.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Client\Menus\Empty.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Client\Menus\FriendBar.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Client\Menus\NavigatorBar.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Client\Overlay\EventPointsOverlay.xml" />
+    <Content Include="Config\Client\Overlay\InfoOverlay.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Client\Rooms\RoomScreen.xml" />
+    <Content Include="Config\Client\TemplateLayouts\CloseAndInfoLayout.xml" />
+    <Content Include="Config\Client\Toolbar.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\HotelOverzichtScreen.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\MenuContentBar.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\MenuWithNoButton.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\MenuWithButton.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\MenuContentBarWithButton.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\MenuTopBar.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\SplashScreen.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Client\ToolBarBottom\FriendBar\FindFriends.png" />
+    <Content Include="Content\Client\ToolBarBottom\FriendBar\FriendList.png" />
+    <Content Include="Content\Client\ToolBarBottom\FriendBar\PrivateChat.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\BuildersClub.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\Camera.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\Catalogue.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\Divider.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\GameCenter.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\HOHK.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\HotelOverzicht.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\Huiskamer.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\Kamers.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\MenuClose.png" />
+    <Content Include="Content\Client\ToolBarBottom\FriendBar\MenuCloseR.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\MenuOpen.png" />
+    <Content Include="Content\Client\ToolBarBottom\FriendBar\MenuOpenR.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\MijnSpullen.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Achievements.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Fora.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\HelperTool.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnKamers.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnProfiel.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MiniMail.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.png" />
+    <Content Include="Content\Client\ToolBarBottom\ToolBar\ToolBar.png" />
+    <Content Include="Content\figuremap.xml" />
+    <Content Include="Content\HotelOverzicht\Backdrop.png" />
+    <Content Include="Content\HotelOverzicht\backdrop_top_stretch.png" />
+    <Content Include="Content\HotelOverzicht\background_left.png" />
+    <Content Include="Content\HotelOverzicht\background_right.png" />
+    <Content Include="Content\locale.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Menu\Buttons\CloseBtn.png" />
+    <Content Include="Content\Menu\Buttons\IBttn.png" />
+    <Content Include="Content\Menu\Buttons\XBtn.png" />
+    <Content Include="Content\Menu\Buttons\XBttn.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarDownLayer.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarDownLayer2.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarLeftCorner.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarLeftLayer.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarMidLayer.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarRightCorner.png" />
+    <Content Include="Content\Menu\ContentBar\ContentBarRightLayer.png" />
+    <Content Include="Content\Menu\TopBar\TopBarEdgeLine.png" />
+    <Content Include="Content\Menu\TopBar\TopBarLeftCorner.png" />
+    <Content Include="Content\Menu\TopBar\TopBarLeftLayer.png" />
+    <Content Include="Content\Menu\TopBar\TopBarMidLayer.png" />
+    <Content Include="Content\Menu\TopBar\TopBarRightCorner.png" />
+    <Content Include="Content\Menu\TopBar\TopBarRightLayer.png" />
+    <Content Include="Content\Overlay\OverlayBackground.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Overlay\OverlayCornerBottomLeft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Overlay\OverlayEdge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManager\FadeImage.png" />
+    <Content Include="Content\SplashScreen\LoadingBar.png" />
+    <Content Include="Content\SplashScreen\LoadingBarProgress.png" />
+    <Content Include="HabboEncryption.dll" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <Content Include="Content\SplashScreen\Background.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\SplashScreen\Dynamic\0.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\SplashScreen\Dynamic\1.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\SplashScreen\Dynamic\2.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\SplashScreen\Logo.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <MonoGameContentReference Include="Content\Fonts\Orbitron.spritefont">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </MonoGameContentReference>
+    <Content Include="Content\SplashScreen\Dynamic\3.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\SplashScreen\Dynamic\4.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\ScreenManager.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\Fonts\ttf\Ubuntu-Bold.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-BoldItalic.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-Italic.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-Light.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-LightItalic.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-Medium.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-MediumItalic.ttf" />
+    <None Include="Content\Fonts\ttf\Ubuntu-Regular.ttf" />
+    <None Include="Content\Fonts\ttf\UbuntuMono-Bold.ttf" />
+    <None Include="Content\Fonts\ttf\UbuntuMono-BoldItalic.ttf" />
+    <None Include="Content\Fonts\ttf\UbuntuMono-Italic.ttf" />
+    <None Include="Content\Fonts\ttf\UbuntuMono-Regular.ttf" />
+    <None Include="Content\Fonts\UnbuntuBold2.spritefont" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Client\ToolBarBottom\ChatBar\" />
+    <Folder Include="Content\Menu\Icons\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

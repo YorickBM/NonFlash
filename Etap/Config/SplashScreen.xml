@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashScreen>
+  <Images>
+    <Path>SplashScreen/Background</Path>
+    <Offset>
+      <X>0</X>
+      <Y>-25</Y>
+    </Offset>
+  </Images>
+  <Images>
+    <Path>SplashScreen/Dynamic/</Path>
+    <Num>0</Num>
+    <Offset>
+      <X>5</X>
+      <Y>-31</Y>
+    </Offset>
+  </Images>
+  <Images>
+    <Path>SplashScreen/Logo</Path>
+    <Offset>
+      <X>0</X>
+      <Y>-25</Y>
+    </Offset>
+  </Images>
+  <Images>
+    <Path>SplashScreen/LoadingBar</Path>
+    <Offset>
+      <X>0</X>
+      <Y>295</Y>
+    </Offset>
+  </Images>
+  <Images>
+    <Path>SplashScreen/LoadingBarProgress</Path>
+    <Scale>
+      <X>30</X> <!-- 393 -->
+      <Y>1</Y>
+    </Scale>
+    <Offset>
+      <X>-196</X>
+      <Y>295</Y>
+    </Offset>
+  </Images>
+  <SplashText>
+    <Text>Habbie Non Flash is here!</Text> <!-- Spread luv, not bullets - Yorick (3/11/2019) -->
+    <FontName>Fonts/UbuntuBold2</FontName>
+    <Position>
+      <X>0</X>
+      <Y>255</Y>
+    </Position>
+  </SplashText>
+  <SplashProgress>
+    <Text>00%</Text>
+    <FontName>Fonts/UbuntuRegular</FontName>
+    <Position>
+      <X>0</X>
+      <Y>325</Y>
+    </Position>
+  </SplashProgress>
+</SplashScreen>

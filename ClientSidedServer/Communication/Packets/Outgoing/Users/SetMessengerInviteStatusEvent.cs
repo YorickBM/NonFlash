@@ -1,0 +1,23 @@
+﻿using System;
+
+using Retro.Database.Interfaces;
+
+
+namespace Retro.Communication.Packets.Incoming.Users
+{
+	class SetMessengerInviteStatusEvent : IPacketEvent
+    {
+        public void Parse(Hotel.GameClients.GameClient Session, ClientPacket Packet)
+        {
+            Boolean Status = Packet.PopBoolean();
+
+            Session.GetHabbo().AllowMessengerInvites = Status;
+            using (IQueryAdapter dbClient = RetroEnvironment.GetDatabaseManager().GetQueryReactor())
+            {
+                dbClient.SetQuery("UPDATE `users` SET `ignore_invites` = @MessengerInvites WHERE `id` = '" + Session.GetHabbo().Id + "' LIMIT 1");
+                dbClient.AddParameter("MessengerInvites", RetroEnvironment.BoolToEnum(Status));
+                dbClient.RunQuery();
+            }
+        }
+    }
+}

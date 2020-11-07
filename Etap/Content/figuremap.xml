@@ -1,0 +1,12 @@
+﻿<FigureMap>
+  <clothingItems>
+    <id>1</id>
+    <name>Hair_F_ang</name>
+    <offset>
+      <X>0</X>
+      <Y>0</Y>
+    </offset>
+    <type>hr</type>
+  </clothingItems>
+
+</FigureMap>

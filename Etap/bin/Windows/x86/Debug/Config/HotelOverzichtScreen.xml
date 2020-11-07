@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HotelOverzichtScreen>
+  <Images>
+    <Path>HotelOverzicht/Backdrop</Path>
+    <IsMidContent>true</IsMidContent>
+  </Images>
+  <Images>
+    <Path>HotelOverzicht/background_right</Path>
+    <posfloat>RIGHTBOTTOM</posfloat>
+    <Offset>
+      <X>0</X>
+      <Y>-30</Y>
+    </Offset>
+  </Images>
+  <Images>
+    <Path>HotelOverzicht/background_left</Path>
+    <posfloat>LEFTBOTTOM</posfloat>
+    <Offset>
+      <X>0</X>
+      <Y>-30</Y>
+    </Offset>
+  </Images>
+</HotelOverzichtScreen>

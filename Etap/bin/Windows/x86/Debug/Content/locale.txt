@@ -1,0 +1,4 @@
+﻿navigator.toplevelview.official_view=Public Rooms
+navigator.toplevelview.hotel_view=All Rooms
+navigator.toplevelview.roomads_view=Events
+navigator.toplevelview.myworld_view=My World

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ScreenManager>
+  <Test>Hi</Test>
+  <image>
+    <Path>ScreenManager/FadeImage</Path>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+    <FadeEffect>
+      <FadeSpeed>0.5</FadeSpeed>
+    </FadeEffect>
+    <Scale>
+      <X>1600</X>
+      <Y>900</Y>
+    </Scale>
+  </image>
+</ScreenManager>

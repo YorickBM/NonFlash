@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SizableOverlay>
+  <XPadding>6</XPadding>
+  <YPadding>-2</YPadding>
+
+  <Images>
+    <Alpha>0.65</Alpha>
+    <Offset>
+      <X>-186</X>
+      <Y>0</Y>
+    </Offset>
+    <Scale>
+      <X>186</X>
+      <Y>67</Y>
+    </Scale>
+    <Path>Overlay/OverlayBackground</Path>
+    <posfloat>RIGHTTOP</posfloat>
+  </Images> <!-- Background (Split up cuz Opacity glitch with corner) -->
+  <Images>
+    <Alpha>0.8</Alpha>
+    <Offset>
+      <X>-184</X>
+      <Y>67</Y>
+    </Offset>
+    <Scale>
+      <X>182</X>
+      <Y>2</Y>
+    </Scale>
+    <Path>Overlay/OverlayEdge</Path>
+    <posfloat>RIGHTTOP</posfloat>
+  </Images> <!-- Edge Bottom -->
+  <Images>
+    <Alpha>0.8</Alpha>
+    <Scale>
+      <X>2</X>
+      <Y>65</Y>
+    </Scale>
+    <Offset>
+    <X>0</X>
+    <Y>0</Y>
+    </Offset>
+    <Path>Overlay/OverlayEdge</Path>
+    <posfloat>RIGHTTOP</posfloat>
+  </Images> <!-- Edge Right -->
+  <Images>
+    <Alpha>0.8</Alpha>
+    <Offset>
+      <X>-188</X>
+      <Y>0</Y>
+    </Offset>
+    <Scale>
+      <X>2</X>
+      <Y>65</Y>
+    </Scale>
+    <Path>Overlay/OverlayEdge</Path>
+    <posfloat>RIGHTTOP</posfloat>
+  </Images> <!-- Edge Left -->
+  <Images>
+    <Alpha>0.8</Alpha>
+    <Offset>
+      <X>-185</X>
+      <Y>60</Y>
+    </Offset>
+    <Path>Overlay/OverlayCornerBottomLeft</Path>
+    <posfloat>RIGHTTOP</posfloat>
+  </Images> <!-- Corner Left -->
+  <Images>
+    <Alpha>0.8</Alpha>
+    <Offset>
+      <X>1</X>
+      <Y>60</Y>
+    </Offset>
+    <Path>Overlay/OverlayCornerBottomRight</Path>
+    <posfloat>RIGHTTOP</posfloat>
+  </Images> <!-- Corner Right -->
+</SizableOverlay>

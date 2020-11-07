@@ -1,0 +1,6 @@
+C:\Users\yoric\source\repos\Etap\bbbb\bin\Debug\bbbb.exe.config
+C:\Users\yoric\source\repos\Etap\bbbb\bin\Debug\bbbb.exe
+C:\Users\yoric\source\repos\Etap\bbbb\bin\Debug\bbbb.pdb
+C:\Users\yoric\source\repos\Etap\bbbb\obj\Debug\bbbb.csproj.CoreCompileInputs.cache
+C:\Users\yoric\source\repos\Etap\bbbb\obj\Debug\bbbb.exe
+C:\Users\yoric\source\repos\Etap\bbbb\obj\Debug\bbbb.pdb

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ImgLoader>
+  <Images>
+    <Text>Title</Text>
+    <FontName>Fonts/UbuntuBold</FontName>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+  </Images>
+  <Images>
+    <Text>Content</Text>
+    <FontName>Fonts/UbuntuRegular</FontName>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+  </Images>
+  <Images>
+    <Path>Menu/Buttons/CloseBtn</Path>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+  </Images>
+</ImgLoader>

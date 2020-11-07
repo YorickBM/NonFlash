@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/FindFriend.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/FindFriends.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/FriendList.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/Friends.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/FriendsBackdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/MenuCloseOpenR.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/MenuCloseR.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/MenuOpenR.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/NoFriends.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/PrivateChatHasChat.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/PrivateChatHasNotification_0.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/PrivateChatHasNotification_1.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/PrivateChatNoChat.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/toggleBtn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Background/Background.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Background/Edge.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Background/Filler.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/BuildersClub.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Camera.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Catalogue.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Divider.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/GameCenter.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/HomeRoom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/HotelOverview.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Inventory.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/MenuClose.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/MenuOpen.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/Achievements.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/Fora.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/HelperTool.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/MijnKamers.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/MijnProfiel.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/MiniMail.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/Omkleden.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ProfileSubBar/TalentenMeter.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/Rooms.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ToggleBtn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ToolBar.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/Arial.spritefont</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/InMenuButton.spritefont</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/Ubuntu.spritefont</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/UbuntuRegular.spritefont</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/HotelOverzicht/Backdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/HotelOverzicht/backdrop_top_stretch.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/HotelOverzicht/background_left.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/HotelOverzicht/background_right.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/CloseBtn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Arrow.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Backdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Dotline.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeLeft.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeRight.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeTop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/ExitBtn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/HelpBtn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/IBttn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/SettingsBtn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/XBttn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/ContentBackground.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/CornerLeft.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/CornerLeftBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/CornerRight.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/CornerRightBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/EdgeBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/EdgeLeft.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/EdgeRight.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/EdgeTop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Header/1ItemsButton.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Header/2ItemsButton.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Header/3ItemsButton.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Header/4ItemsButton.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Header/5ItemsButton.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Header/6ItemsButtons.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarDownLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarDownLayer2.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarLeftCorner.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarLeftLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarMidLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarRightCorner.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarRightLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/HC/BackdropHC.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/HC/Divider.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/BackdropGOTW.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/CitizenShipBackdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/CitizenShipSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/Credit.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/CreditSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/Diamond.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/DiamondSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/Ducket.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/DucketSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/GoToSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/GotwSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/HCSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/PrivateChatSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Icons/ProfileSmall.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/ImagesInAlert/eventalert.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/backdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Button/Backdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Button/Corner.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Button/edgeSide.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Button/edgeTop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/hiddenLine.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarEdgeLine.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarLeftCorner.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarLeftLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarMidLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarRightCorner.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarRightLayer.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Overlay/OverlayBackground.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Overlay/OverlayBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Overlay/OverlayCornerBottomLeft.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Overlay/OverlayEdge.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/ScreenManager/FadeImage.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Background.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Dynamic/0.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Dynamic/1.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Dynamic/2.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Dynamic/3.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Dynamic/4.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Dynamic/5.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/LoadingBar.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/LoadingBarProgress.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/SplashScreen/Logo.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Fonts/UbuntuBold.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

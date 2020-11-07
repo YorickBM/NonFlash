@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ImgLoader>
+  <Images>
+    <Text>Title</Text>
+    <FontName>Fonts/UbuntuBold</FontName>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+  </Images>
+  <Images>
+    <Text>Content</Text>
+    <FontName>Fonts/UbuntuRegular</FontName>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+  </Images>
+  <ButtonImages>
+    <Path>Menu/Buttons/XBtn</Path>
+    <Position>
+      <X>1</X>
+      <Y>1</Y>
+    </Position>
+    <Scale>
+      <X>1</X>
+      <Y>1</Y>
+    </Scale>
+    <Effects>FadeEffect</Effects>
+    <IsActive>false</IsActive>
+  </ButtonImages>
+</ImgLoader>

@@ -1,0 +1,864 @@
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Etap.exe
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Etap.pdb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\yoric\source\repos\Etap\Etap\obj\x86\Debug\Etap.csproj.CopyComplete
+C:\Users\yoric\source\repos\Etap\Etap\obj\x86\Debug\Etap.exe
+C:\Users\yoric\source\repos\Etap\Etap\obj\x86\Debug\Etap.pdb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Background.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\0.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\1.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\2.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Logo.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\SplashScreen.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Arial.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\3.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\4.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\ScreenManager\FadeImage.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\ScreenManager.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\MenuTopBar.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBarWithButton.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithButton.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Ubuntu.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuRegular.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarEdgeLine.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftCorner.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarMidLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightCorner.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftCorner.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarMidLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightCorner.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightLayer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBttn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBtn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBar.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithNoButton.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer2.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Beta.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBtn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ImagesInAlert\eventalert.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\5.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBar.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBarProgress.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UnbuntuBold2.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold2.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\backdrop_top_stretch.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_left.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_right.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\HotelOverzichtScreen.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Achievements.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Fora.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\HelperTool.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnKamers.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnProfiel.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MiniMail.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\BuildersClub.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Camera.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Catalogue.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Divider.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\GameCenter.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HotelOverzicht.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Kamers.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MijnSpullen.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChat.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Toolbar.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToolBar.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuClose.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuOpen.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\Backdrop.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseR.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuOpenR.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriends.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendList.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\NavigatorBar.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Huiskamer.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Etap.exe.config
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HOHK.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\HabboEncryption.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\log4net.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Nini.dll
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\log4net.xml
+C:\Users\yoric\source\repos\Etap\Etap\obj\x86\Debug\Etap.csprojAssemblyReference.cache
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\IBttn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBttn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\InfoOnly.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseOnly.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseAndInfo.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\BackGround.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomLeft.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomRight.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopLeft.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopRight.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\Edge.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomRight.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopLeft.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopRight.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Overlay\InfoOverlay.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.png
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.png
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomRight.png
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopLeft.png
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopRight.png
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.png
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Credit.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Diamond.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Ducket.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CreditSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DiamondSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DucketSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\BackdropHC.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\Divider.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\ExitBtn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\HelpBtn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\SettingsBtn.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\Empty.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\HCSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\BackdropGOTW.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GotwSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipBackdrop.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\FriendBar.xml
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseOpenR.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendsBackdrop.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GoToSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\PrivateChatSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\ProfileSmall.xnb
+C:\Users\yoric\source\repos\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriend.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\obj\x86\Debug\Etap.csprojAssemblyReference.cache
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\obj\x86\Debug\Etap.csproj.CoreCompileInputs.cache
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\obj\x86\Debug\Etap.exe
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\obj\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Beta.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\Empty.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\FriendBar.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\NavigatorBar.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Overlay\InfoOverlay.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Toolbar.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\HotelOverzichtScreen.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBar.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithButton.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBarWithButton.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\MenuTopBar.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\SplashScreen.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.png
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.png
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomRight.png
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopLeft.png
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopRight.png
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.png
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Background.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\0.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\1.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\2.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Logo.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\3.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\4.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\ScreenManager.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Ubuntu.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UnbuntuBold2.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBttn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\BackGround.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomLeft.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomRight.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopLeft.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopRight.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\Edge.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarEdgeLine.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftCorner.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarMidLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightCorner.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ImagesInAlert\eventalert.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\BackdropGOTW.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipBackdrop.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Credit.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CreditSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Diamond.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DiamondSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Ducket.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DucketSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GoToSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GotwSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\HCSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\PrivateChatSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\ProfileSmall.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\BackdropHC.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\Divider.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\5.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Arial.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold2.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuRegular.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer2.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftCorner.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarMidLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightCorner.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightLayer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBar.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBarProgress.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Achievements.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Fora.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\HelperTool.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnKamers.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnProfiel.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MiniMail.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBtn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\ExitBtn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\HelpBtn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\IBttn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\SettingsBtn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBtn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBttn.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\ScreenManager\FadeImage.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\BuildersClub.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Camera.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Catalogue.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Divider.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\GameCenter.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HOHK.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HotelOverzicht.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Huiskamer.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Kamers.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuClose.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuOpen.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MijnSpullen.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToolBar.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\Backdrop.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\backdrop_top_stretch.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_left.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_right.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomRight.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopLeft.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopRight.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriend.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriends.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendList.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendsBackdrop.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseOpenR.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseR.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuOpenR.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChat.xnb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\InfoOnly.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseOnly.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseAndInfo.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithNoButton.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Etap.exe.config
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Etap.exe
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\HabboEncryption.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\log4net.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Nini.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\log4net.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\Etap\obj\x86\Debug\Etap.csproj.CopyComplete
+C:\Users\yoric\OneDrive\Etap\Etap\obj\x86\Debug\Etap.csprojAssemblyReference.cache
+C:\Users\yoric\OneDrive\Etap\Etap\obj\x86\Debug\Etap.exe
+C:\Users\yoric\OneDrive\Etap\Etap\obj\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Beta.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\Empty.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\FriendBar.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\NavigatorBar.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Overlay\InfoOverlay.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Toolbar.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\HotelOverzichtScreen.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBar.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithButton.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBarWithButton.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuTopBar.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\SplashScreen.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.png
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.png
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.png
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Background.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\0.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\1.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\2.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Logo.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\3.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\4.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\ScreenManager.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarEdgeLine.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftCorner.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarMidLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightCorner.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ImagesInAlert\eventalert.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\BackdropGOTW.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipBackdrop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Credit.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CreditSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Diamond.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DiamondSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Ducket.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DucketSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GoToSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GotwSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\HCSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\PrivateChatSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\ProfileSmall.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\BackdropHC.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\Divider.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\5.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer2.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftCorner.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarMidLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightCorner.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightLayer.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBar.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBarProgress.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Arial.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Ubuntu.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuRegular.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UnbuntuBold2.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\ScreenManager\FadeImage.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBttn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\ExitBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\HelpBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\IBttn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\SettingsBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Achievements.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Fora.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\HelperTool.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnKamers.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnProfiel.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MiniMail.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\Backdrop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\backdrop_top_stretch.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_left.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_right.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\BuildersClub.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Camera.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Catalogue.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Divider.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\GameCenter.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuClose.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuOpen.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToolBar.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\BackGround.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomLeft.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomRight.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopLeft.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopRight.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\Edge.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriend.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriends.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendList.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendsBackdrop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseOpenR.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseR.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuOpenR.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChat.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\InfoOnly.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseOnly.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseAndInfo.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithNoButton.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Etap.exe.config
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Etap.exe
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\HabboEncryption.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\log4net.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Nini.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\log4net.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\yoric\OneDrive\Etap\Etap\obj\x86\Debug\Etap.csproj.CopyComplete
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Beta.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\Empty.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\FriendBar.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Menus\NavigatorBar.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Overlay\InfoOverlay.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Toolbar.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\HotelOverzichtScreen.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBar.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithButton.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuContentBarWithButton.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuTopBar.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\SplashScreen.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.png
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.png
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomRight.png
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopLeft.png
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopRight.png
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.png
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Background.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\0.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\1.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\2.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Logo.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\3.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\4.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\ScreenManager.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Ubuntu.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UnbuntuBold2.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBttn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\BackGround.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomLeft.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomRight.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopLeft.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopRight.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\Edge.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarEdgeLine.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftCorner.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarMidLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightCorner.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ImagesInAlert\eventalert.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\BackdropGOTW.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipBackdrop.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Credit.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CreditSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Diamond.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DiamondSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Ducket.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DucketSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GoToSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GotwSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\HCSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\PrivateChatSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\ProfileSmall.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\BackdropHC.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\HC\Divider.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\Arial.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold2.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuRegular.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Achievements.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Fora.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\HelperTool.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnKamers.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnProfiel.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MiniMail.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\5.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer2.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftCorner.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarMidLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightCorner.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightLayer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\BuildersClub.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Camera.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Catalogue.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Divider.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\GameCenter.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HOHK.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HotelOverzicht.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Huiskamer.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Kamers.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuClose.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuOpen.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MijnSpullen.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToolBar.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBar.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBarProgress.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBtn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\ExitBtn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\HelpBtn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\IBttn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\SettingsBtn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBtn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBttn.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriend.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriends.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendList.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendsBackdrop.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseOpenR.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseR.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuOpenR.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChat.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\ScreenManager\FadeImage.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomRight.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopLeft.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerTopRight.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\Backdrop.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\backdrop_top_stretch.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_left.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_right.xnb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\InfoOnly.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseOnly.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseAndInfo.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Config\MenuWithNoButton.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Etap.exe.config
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Etap.exe
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Etap.pdb
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\HabboEncryption.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\log4net.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Nini.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Enyim.Caching.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Google.Protobuf.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\log4net.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\MySql.Data.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Renci.SshNet.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\jensd\OneDrive\Etap\Etap\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\jensd\OneDrive\Etap\Etap\obj\x86\Debug\Etap.csprojAssemblyReference.cache
+C:\Users\jensd\OneDrive\Etap\Etap\obj\x86\Debug\Etap.csproj.CopyComplete
+C:\Users\jensd\OneDrive\Etap\Etap\obj\x86\Debug\Etap.exe
+C:\Users\jensd\OneDrive\Etap\Etap\obj\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\ContentBackground.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerLeft.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerLeftBottom.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerRight.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerRightBottom.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeBottom.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeLeft.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeRight.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeTop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\1ItemsButton.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\2ItemsButton.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\3ItemsButton.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\4ItemsButton.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\5ItemsButton.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\6ItemsButtons.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBottom.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBttn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToggleBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Background\Background.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Background\Edge.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Rooms.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Inventory.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Background\Filler.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\Friends.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\NoFriends.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\toggleBtn.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HomeRoom.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HotelOverview.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatHasChat.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatHasNotification_0.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatHasNotification_1.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatNoChat.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\backdrop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\hiddenLine.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\Corner.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\edgeTop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\edgeSide.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\Backdrop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\locale.txt
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Arrow.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Backdrop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Dotline.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeBottom.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeLeft.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeRight.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeTop.xnb
+C:\Users\yoric\OneDrive\Etap\Etap\bin\Windows\x86\Debug\Content\Fonts\InMenuButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Beta.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Menus\Empty.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Menus\FriendBar.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Menus\NavigatorBar.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Overlay\InfoOverlay.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Toolbar.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\HotelOverzichtScreen.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\MenuContentBar.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\MenuWithButton.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\MenuContentBarWithButton.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\MenuTopBar.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\SplashScreen.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.png
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.png
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.png
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Background.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\0.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\1.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\2.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Logo.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\3.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\4.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\ScreenManager.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\BackGround.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomLeft.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerBottomRight.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopLeft.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\CornerTopRight.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\Edge.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Ubuntu.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\UnbuntuBold2.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChat.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBttn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\Dynamic\5.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarEdgeLine.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftCorner.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarLeftLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarMidLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightCorner.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\TopBar\TopBarRightLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBar.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\SplashScreen\LoadingBarProgress.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\Backdrop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\Corner.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\edgeSide.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Button\edgeTop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\ScreenManager\FadeImage.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\backdrop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\hiddenLine.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBackground.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayCornerBottomLeft.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Overlay\OverlayEdge.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ImagesInAlert\eventalert.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\BackdropGOTW.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipBackdrop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CitizenShipSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Credit.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\CreditSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Diamond.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DiamondSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\Ducket.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\DucketSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GoToSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\GotwSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\HCSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\PrivateChatSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Icons\ProfileSmall.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\HC\BackdropHC.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\HC\Divider.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\Backdrop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\backdrop_top_stretch.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_left.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\HotelOverzicht\background_right.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarDownLayer2.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftCorner.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarLeftLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarMidLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightCorner.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\ContentBar\ContentBarRightLayer.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\1ItemsButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\2ItemsButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\3ItemsButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\4ItemsButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\5ItemsButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Header\6ItemsButtons.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Arial.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\InMenuButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuBold.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\UbuntuRegular.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\ContentBackground.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerLeft.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerLeftBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerRight.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\CornerRightBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeLeft.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeRight.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Catalogus\Content\EdgeTop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Achievements.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Fora.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\HelperTool.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnKamers.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MijnProfiel.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\MiniMail.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Background\Background.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Background\Edge.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Background\Filler.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Arrow.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Backdrop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Dotline.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeLeft.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeRight.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\EdgeTop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\BuildersClub.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Camera.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Catalogue.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Divider.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\GameCenter.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HomeRoom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\HotelOverview.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Inventory.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuClose.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\MenuOpen.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\Rooms.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToggleBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\ToolBar\ToolBar.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriend.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FindFriends.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendList.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\Friends.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\FriendsBackdrop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseOpenR.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuCloseR.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\MenuOpenR.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\NoFriends.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatHasChat.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatHasNotification_0.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatHasNotification_1.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\PrivateChatNoChat.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\ToolBarBottom\FriendBar\toggleBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\CloseBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\ExitBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\HelpBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\IBttn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\SettingsBtn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\XBttn.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\InfoOnly.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseOnly.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\Client\Buttons\CloseAndInfo.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Config\MenuWithNoButton.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\locale.txt
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Etap.exe.config
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Etap.exe
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Enyim.Caching.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Google.Protobuf.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\HabboEncryption.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\log4net.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\MySql.Data.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Nini.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Renci.SshNet.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Enyim.Caching.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Google.Protobuf.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\log4net.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\MySql.Data.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Renci.SshNet.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.csprojAssemblyReference.cache
+C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.csproj.CopyComplete
+C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.exe
+C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.pdb

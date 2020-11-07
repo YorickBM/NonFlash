@@ -1,0 +1,12 @@
+﻿<ToolBar>
+  <padding>10</padding>
+  <ToolBarImage>
+    <Path>Client/ToolBarBottom/ToolBar/ToolBar</Path>
+    <posfloat>LEFTBOTTOM</posfloat>
+    <FullScreen>true</FullScreen>
+  </ToolBarImage>
+  <Image>
+    <Path>Client/ToolBarBottom/ToolBar/MenuOpen</Path>
+    <posfloat>LEFTBOTTOM</posfloat>
+  </Image>
+</ToolBar>

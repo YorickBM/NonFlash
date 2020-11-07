@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D72EA7C-2C63-434A-A6F7-C80E73B2E692}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ClientSidedServer</RootNamespace>
+    <AssemblyName>ClientSidedServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Visual Studio 2019\Etap\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HabboEncryption">
+      <HintPath>..\Etap\HabboEncryption.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communication\ConnectionManager\ConnectionInformation.cs" />
+    <Compile Include="Communication\ConnectionManager\ConnectionState.cs" />
+    <Compile Include="Communication\ConnectionManager\ConnectionHandling.cs" />
+    <Compile Include="Communication\ConnectionManager\ClientSocketManager.cs" />
+    <Compile Include="Communication\ConnectionManager\GameSocketManager.cs" />
+    <Compile Include="Communication\ConnectionManager\GameSocketManagerStatics.cs" />
+    <Compile Include="Communication\ConnectionManager\IDataParser.cs" />
+    <Compile Include="Communication\ConnectionManager\ISocketManager.cs" />
+    <Compile Include="Communication\ConnectionManager\Socket Exceptions\SocketInitializationException.cs" />
+    <Compile Include="Communication\Encryption\Crypto\Prng\ARC4.cs" />
+    <Compile Include="Communication\Encryption\Crypto\RSA\RSAKey.cs" />
+    <Compile Include="Communication\Encryption\HabboEncryptionV2.cs" />
+    <Compile Include="Communication\Encryption\KeyExchange\DiffieHellman.cs" />
+    <Compile Include="Communication\Encryption\Keys\RSAKeys.cs" />
+    <Compile Include="Communication\GamePacketParser.cs" />
+    <Compile Include="Communication\InitialPacketParser.cs" />
+    <Compile Include="Communication\Interfaces\IServerPacket.cs" />
+    <Compile Include="Communication\MessageClass.cs" />
+    <Compile Include="Communication\Packets\Incoming\BuildersClub\BCBorrowedItemsComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\BuildersClub\BuildersClubMembershipComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\AuthenticationOKComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\AvailabilityStatusComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\GenericErrorComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\InitCryptoComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\PongComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\SecretKeyComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\SetUniqueIdComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\UserObjectComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\UserPerksComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Handshake\UserRightsComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Inventory\Achievements\AchievementProgressedComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Inventory\Achievements\AchievementScoreComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Inventory\AvatarEffects\FigureSetIdsComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Misc\LatencyTestComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Moderation\CfhTopicsInitComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Moderation\ModeratorInitComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Moderation\ModeratorSupportTicketComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Navigator\FavouritesComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Navigator\NavigatorCollapsedCategoriesComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Navigator\NavigatorLiftedRoomsComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Navigator\NavigatorMetaDataParserComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Navigator\NavigatorPreferencesComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Navigator\NavigatorSettingsComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Notifications\MOTDNotificationComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Chat\ChatComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Chat\FloodControlComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Chat\ShoutComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Chat\UserTypingComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Chat\WhisperComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\AlertNotificationHCMessageComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\HCGiftsAlertComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\MassEventComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\RoomCustomizedAlertComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\RoomErrorNotifComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\RoomNotificationComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Notifications\RooomCustomizedAlertComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Rooms\Session\OpenConnectionComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Sound\SoundSettingsComposer.cs" />
+    <Compile Include="Communication\Packets\Incoming\Users\ScrSendUserInfoComposer.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\GenerateSecretKeyEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\InfoRetrieveEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\InitCryptoEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\SSOTicketEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\UniqueIDEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Messenger\FriendListUpdateEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Misc\EventTrackerEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Misc\LatencyTestEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Moderation\SubmitNewTicketEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Navigator\InitializeNewNavigatorEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Chat\CancelTypingEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Chat\ChatEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Chat\ShoutEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Chat\StartTypingEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Chat\WhisperEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Connection\GoToFlatEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Rooms\Connection\OpenFlatConnectionEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\ServerPacket.cs" />
+    <Compile Include="Communication\Packets\Incoming\ClientPacketHeader.cs" />
+    <Compile Include="Communication\Packets\IPacketEvent.cs" />
+    <Compile Include="Communication\Packets\Incoming\ClientPacket.cs" />
+    <Compile Include="Communication\Packets\Outgoing\ServerPacketHeader.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\GetClientVersionEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Handshake\PingEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Misc\PongMessageEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Moderation\CloseTicketEvent.cs" />
+    <Compile Include="Communication\Packets\Outgoing\Users\ScrGetUserInfoEvent.cs" />
+    <Compile Include="Communication\Packets\PacketManager.cs" />
+    <Compile Include="Communication\RCON\RCONConnection.cs" />
+    <Compile Include="Communication\RCON\RCONSocket.cs" />
+    <Compile Include="Core\BiosSteam.cs" />
+    <Compile Include="Core\ConfigurationData.cs" />
+    <Compile Include="Core\ConsoleCommandHandler.cs" />
+    <Compile Include="Core\ExceptionLogger.cs" />
+    <Compile Include="Core\ExtraSettings.cs" />
+    <Compile Include="Core\ImgCommand.cs" />
+    <Compile Include="Core\ServerStatusUpdater.cs" />
+    <Compile Include="Hotel\Game.cs" />
+    <Compile Include="Hotel\GameClients\GameClient.cs" />
+    <Compile Include="Hotel\GameClients\GameClientManager.cs" />
+    <Compile Include="Hotel\Games\GameData.cs" />
+    <Compile Include="Hotel\Games\GameDataManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Utilities\DataParser.cs" />
+    <Compile Include="Utilities\Logger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetroEnvironment.cs" />
+    <Compile Include="Utilities\Converter.cs" />
+    <Compile Include="Utilities\HabboEncoding.cs" />
+    <Compile Include="Utilities\Randomizer.cs" />
+    <Compile Include="Utilities\RandomNumber.cs" />
+    <Compile Include="Utilities\StringCharFilter.cs" />
+    <Compile Include="Utilities\TextHandling.cs" />
+    <Compile Include="Utilities\UnixTimestamp.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

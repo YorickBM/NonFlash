@@ -1,0 +1,27 @@
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csprojAssemblyReference.cache
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csproj.CoreCompileInputs.cache
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\bin\Debug\ClientSidedServer.exe
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\bin\Debug\ClientSidedServer.pdb
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\bin\Debug\HabboEncryption.dll
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\bin\Debug\log4net.dll
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\bin\Debug\log4net.xml
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csproj.CopyComplete
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.exe
+C:\Users\yoric\source\repos\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.pdb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csprojAssemblyReference.cache
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.exe
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.pdb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\bin\Debug\ClientSidedServer.exe
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\bin\Debug\ClientSidedServer.pdb
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\bin\Debug\HabboEncryption.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\bin\Debug\log4net.dll
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\bin\Debug\log4net.xml
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csproj.CopyComplete
+C:\Users\yoric\OneDrive - Office 365 Fontys\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csproj.CoreCompileInputs.cache
+C:\Visual Studio 2019\Etap\ClientSidedServer.exe
+C:\Visual Studio 2019\Etap\ClientSidedServer.pdb
+C:\Users\yoric\OneDrive\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csprojAssemblyReference.cache
+C:\Users\yoric\OneDrive\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csproj.CoreCompileInputs.cache
+C:\Users\yoric\OneDrive\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.csproj.CopyComplete
+C:\Users\yoric\OneDrive\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.exe
+C:\Users\yoric\OneDrive\Etap\ClientSidedServer\obj\Debug\ClientSidedServer.pdb
