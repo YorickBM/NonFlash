@@ -68,6 +68,10 @@
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/ExitBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/HelpBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/IBttn.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Scroller/arrowButton.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Scroller/box.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Scroller/scrollCenter.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Scroller/scrollTop.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/SettingsBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/XBttn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Catalogus/Content/ContentBackground.png</File>
@@ -183,6 +187,10 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>Fonts/UbuntuBold.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

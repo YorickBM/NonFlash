@@ -872,3 +872,7 @@ C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons
 C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\NewRoom.xnb
 C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Pencil.xnb
 C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\RandomRoom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Scroller\arrowButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Scroller\box.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Scroller\scrollCenter.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Scroller\scrollTop.xnb

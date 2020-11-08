@@ -155,6 +155,8 @@
     <Compile Include="ImagesCode\Util\ButtonTypes\HoverButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\AnimationSwitchHoverButton.cs" />
     <Compile Include="ImagesCode\Navigator\InMenuButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\ScrollButtonArrow.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\ScrollButtonWheel.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\ToggleButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\SwitchHoverButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\ToggleHoverButton.cs" />

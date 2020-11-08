@@ -44,7 +44,7 @@ namespace Util
         internal Vector2i frames;
         internal Vector2i framesDimensions;
 
-        internal bool enabled;
+        internal bool enabled = true;
         public void Disable(bool hide = false) { enabled = false; if (hide) Hide(); }
         public void Enable() { enabled = true;  Show(); }
         public bool isEnabled() { return enabled; }

@@ -40,14 +40,14 @@ namespace Engine.Navigator
                 new DropdownItem("navigator.filter.group", () => { })
                 );
 
-            Image imgOne = new Image(content, "Menu/Navigator/NewRoom", new Vector2(189,61));
+            Button imgOne = new Button(content, "Menu/Navigator/NewRoom", new Vector2i(1,1), () => { });
             imgOne.SetPosition(new Vector2i(0, 0));
-            Image imgTwo = new Image(content, "Menu/Navigator/RandomRoom", new Vector2(189, 61));
-            imgTwo.SetPosition(new Vector2i(0, 60));
-            Image imgThree = new Image(content, "Menu/Navigator/NewRoom", new Vector2(189, 62));
-            imgThree.SetPosition(new Vector2i(0, 120));
+            Button imgTwo = new Button(content, "Menu/Navigator/RandomRoom", new Vector2i(1, 1), () => { });
+            imgTwo.SetPosition(new Vector2i(0, 280));
+            Button imgThree = new Button(content, "Menu/Navigator/NewRoom", new Vector2i(1, 1), () => { });
+            imgThree.SetPosition(new Vector2i(0, 370));
 
-            view = new ScrollView(content, new Vector2i(0, 0), new Vector2i(imgThree.dimensions.X, 120), imgOne, imgTwo, imgThree);
+            view = new ScrollView(content, new Vector2i(0, 0), new Vector2i(388, 356), "menu/Navigator/backdrop", imgOne, imgTwo, imgThree);
             //view.SetScrolled(new Vector2i(0, 64));
         }
 
