@@ -15,12 +15,13 @@ namespace Util
 
         }
 
+        public virtual void UnloadContent() {
+        }
+
         public virtual void Update(GameTime gamTime) { 
         }
 
-        public virtual void Draw(SpriteBatch spriteBatch)
-        { 
-
+        public virtual void Draw(SpriteBatch spriteBatch) { 
         }
 
         //https://community.monogame.net/t/text-input-box-again/9454/7

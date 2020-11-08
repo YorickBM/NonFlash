@@ -20,6 +20,8 @@ namespace Util
 
         internal Vector2i dimensions { get; set; }
         internal Vector2 Position { get; set; }
+        internal Vector2 originPosition { get; set; }
+        internal Vector2 Size { get; set; }
         internal Color color = Color.White;
 
         bool hiddenB;
@@ -32,8 +34,10 @@ namespace Util
             img = content.Load<Texture2D>(path);
             dimensions = new Vector2i(img.Width, img.Height);
             if (size != Vector2.Zero){
+                Size = size;
                 SourceRect = new Rectangle(0, 0, (int)size.X, (int)size.Y);
             } else {
+                Size = new Vector2(img.Width, img.Height);
                 SourceRect = new Rectangle(0, 0, (int)img.Width, (int)img.Height); 
             }
 
@@ -41,18 +45,23 @@ namespace Util
             Scale = scale;
             Rotation = rotation;
             Position = Vector2.Zero;
+            originPosition = Position;
             //img.GraphicsDevice.DepthStencilState = DepthStencilState.DepthRead;
 
             this.Show();
         }
 
+        public Texture2D GetTexture() { return img; }
+
         public void AddPosition(Vector2 pos)
         {
             Position += pos;
+            originPosition = Position;
         }
         public void SetPosition(Vector2 pos)
         {
             Position = pos;
+            originPosition = Position;
         }
 
         public virtual void Draw(SpriteBatch spriteBatch, Vector2 pos, float depth = 0, SpriteEffects effects = SpriteEffects.None)

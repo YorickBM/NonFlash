@@ -2,3 +2,9 @@
 navigator.toplevelview.hotel_view=All Rooms
 navigator.toplevelview.roomads_view=Events
 navigator.toplevelview.myworld_view=My World
+navigator.filter.input.placeholder=filter rooms by...
+navigator.filter.anything=Anything
+navigator.filter.room.name=Room Name
+navigator.filter.owner=Owner
+navigator.filter.tag=Tag
+navigator.filter.group=Group

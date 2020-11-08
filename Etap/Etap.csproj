@@ -163,6 +163,7 @@
     <Compile Include="ImagesCode\Util\Font.cs" />
     <Compile Include="ImagesCode\Util\Image.cs" />
     <Compile Include="ImagesCode\Util\Math\Vector2i.cs" />
+    <Compile Include="ImagesCode\Util\ScrollView.cs" />
     <Compile Include="ImagesCode\Util\TextField.cs" />
     <Compile Include="ResizeStatus.cs" />
     <Compile Include="1Client\Communication\Packets\IPacketEvent.cs" />

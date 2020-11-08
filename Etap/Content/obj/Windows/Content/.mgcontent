@@ -43,6 +43,7 @@
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ToggleBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/ToolBar/ToolBar.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/Arial.spritefont</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/DropdownButton.spritefont</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/InMenuButton.spritefont</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/Ubuntu.spritefont</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/UbuntuRegular.spritefont</File>
@@ -53,11 +54,17 @@
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/CloseBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Arrow.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Backdrop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/CornerLeftBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/CornerLeftTop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/CornerRightBottom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/CornerRightTop.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Dotline.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeBottom.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeLeft.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeRight.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/EdgeTop.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/HoverActive.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/Dropdown/Selected.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/ExitBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/HelpBtn.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Buttons/IBttn.png</File>
@@ -108,6 +115,9 @@
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Button/edgeSide.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Button/edgeTop.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/hiddenLine.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/NewRoom.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/Pencil.png</File>
+    <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/RandomRoom.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarEdgeLine.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarLeftCorner.png</File>
     <File>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/TopBar/TopBarLeftLayer.png</File>
@@ -171,7 +181,17 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File>Fonts/UbuntuBold.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

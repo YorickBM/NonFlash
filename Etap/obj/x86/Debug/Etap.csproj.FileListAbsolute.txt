@@ -862,3 +862,13 @@ C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.csprojAssemblyReference
 C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.csproj.CopyComplete
 C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.exe
 C:\Users\yoric\OneDrive\NonFlash\Etap\obj\x86\Debug\Etap.pdb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\DropdownButton.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\CornerLeftBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\CornerLeftTop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\CornerRightBottom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\CornerRightTop.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\HoverActive.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Buttons\Dropdown\Selected.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\NewRoom.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\Pencil.xnb
+C:\Users\yoric\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Navigator\RandomRoom.xnb
