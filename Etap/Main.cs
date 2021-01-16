@@ -1,10 +1,12 @@
 ﻿using Etap.ImagesCode;
 using Etap.Source.EtapEngine;
+using Etap.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using MonoGame_Textbox;
 
 namespace Etap
 {
@@ -77,6 +79,8 @@ namespace Etap
             content = this.Content;
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            MonoGame_Textbox.KeyboardInput.Initialize(this, 500f, 20);
+
             GameScreenManager.Instance.SpriteBatch = spriteBatch;
             GameScreenManager.Instance.LoadContent(Content);
         }
@@ -99,6 +103,8 @@ namespace Etap
                 Exit();
             }
 
+            MonoGame_Textbox.KeyboardInput.Update();
+
             if (resizing.Pending)
             {
                 Console.WriteLine("Resizing");
@@ -119,14 +125,20 @@ namespace Etap
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(GameScreenManager.Instance.BackgroundColor);
-            //GraphicsDevice.Clear(Color.ForestGreen);
+            try
+            {
+                GraphicsDevice.Clear(GameScreenManager.Instance.BackgroundColor);
+                //GraphicsDevice.Clear(Color.ForestGreen);
 
-            spriteBatch.Begin(SpriteSortMode.FrontToBack);
-            GameScreenManager.Instance.Draw();
-            spriteBatch.End();
+                spriteBatch.Begin(SpriteSortMode.FrontToBack, null, SamplerState.PointWrap);
+                GameScreenManager.Instance.Draw();
+                spriteBatch.End();
 
-            base.Draw(gameTime);
+                base.Draw(gameTime);
+            }catch(Exception)
+            {
+                Logger.Error("Missing a draw frame!!!");
+            }
         }
     }
 }

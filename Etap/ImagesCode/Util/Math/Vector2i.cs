@@ -27,6 +27,11 @@ namespace Util
             X = (int)Math.Ceiling(x);
             Y = (int)Math.Ceiling(y);
         }
+        public Vector2i()
+        {
+            X = 0;
+            Y = 0;
+        }
 
         public int getX() { return X; }
         public int getY() { return Y; }

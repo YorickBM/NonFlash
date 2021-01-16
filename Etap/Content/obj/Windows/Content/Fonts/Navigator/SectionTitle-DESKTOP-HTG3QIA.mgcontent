@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Fonts/Navigator/SectionTitle.spritefont</SourceFile>
+  <SourceTime>2020-11-09T10:00:36.8453191+01:00</SourceTime>
+  <DestFile>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/bin/Windows/Content/Fonts/Navigator/SectionTitle.xnb</DestFile>
+  <DestTime>2020-11-09T10:00:56.7984245+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

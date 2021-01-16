@@ -42,6 +42,8 @@ namespace Etap.Engine.User
             _gotw = new Currency(gotw);
         }
 
+        public void SetCredits(int value) { _credits.Set(value); }
+
         public Currency GetCredits() { return _credits; }
         public Currency GetDuckets() { return _duckets; }
         public Currency GetDiamonds() { return _diamonds; }

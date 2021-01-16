@@ -67,9 +67,14 @@
     <Compile Include="1Client\Communication\Packets\Incoming\BuildersClub\BuildersClubMembershipComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogIndexComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogItemDiscountComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogPageComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Catalog\CatalogPreferencesComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\PurchaseOKComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\VoucherRedeemErrorComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Catalog\VoucherRedeemOkComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\ClientPacket.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\ClientPacketHeader.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\HabboCamera\SetCameraPicturePriceComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Handshake\AuthenticationOKComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Handshake\AvailabilityStatusComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Handshake\GenericErrorComposer.cs" />
@@ -90,11 +95,14 @@
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Badges\BadgesComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListNotificationComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListUpdateComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Purse\CreditBalanceComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Purse\HabboActivityPointNotificationComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Messenger\BuddyListComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Messenger\BuddyRequestsComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Messenger\MessengerInitComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Misc\LatencyTestComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Moderation\BroadcastMessageAlertComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Moderation\CfhTopicsInitComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Moderation\ModeratorInitComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Moderation\ModeratorSupportTicketComposer.cs" />
@@ -108,6 +116,7 @@
     <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorPreferencesComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorSearchResultSetComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Navigator\NavigatorSettingsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Navigator\RoomRatingComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Navigator\UserFlatCatsComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Notifications\MOTDNotificationComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\ChatComposer.cs" />
@@ -115,6 +124,21 @@
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\ShoutComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\UserTypingComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Chat\WhisperComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\FloorHeightMapComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\HeightMapComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\HomeRoomInfoComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ItemsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ObjectsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ObjectUpdateComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\RoomEntryInfoComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\RoomEventComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\RoomPropertyComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\RoomVisualizationSettingsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\UserChangeComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\UsersComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\UserUpdateComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\FloorPlan\FloorPlanFloorMapComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\FloorPlan\FloorPlanSendDoorComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\AlertNotificationHCMessageComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\HCGiftsAlertComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\MassEventComposer.cs" />
@@ -122,51 +146,93 @@
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RoomErrorNotifComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RoomNotificationComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Notifications\RooomCustomizedAlertComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Permissions\YouAreControllerComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Permissions\YouAreOwnerComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Session\CloseConnectionComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Session\OpenConnectionComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Session\RoomReadyComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Sound\SoundSettingsComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Users\ScrSendUserInfoComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Catalog\GetCatalogIndexEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Catalog\GetCatalogPageEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Catalog\PurchaseFromCatalogEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Catalog\RedeemVoucherEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\GetUserDataEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GetGuestRoomEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GetNavigatorFlatsEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GetUserFlatCatsEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\GoToHotelViewEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\NavigatorSearchEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\GetHomeRoomEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\GetRoomEntryDataEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\FloorPlan\FloorPlanEditorRoomPropertiesEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\FloorPlan\InitializeFloorPlanSessionEvent.cs" />
     <Compile Include="1Client\Hotel\Game.cs" />
     <Compile Include="1Client\Hotel\GameClients\GameClient.cs" />
     <Compile Include="1Client\Hotel\GameClients\GameClientManager.cs" />
     <Compile Include="1Client\Hotel\Games\GameData.cs" />
     <Compile Include="1Client\Hotel\Games\GameDataManager.cs" />
+    <Compile Include="Engine\Catalogus\CatalogusImageManager.cs" />
+    <Compile Include="Engine\Catalogus\CatalogusManager.cs" />
+    <Compile Include="Engine\Catalogus\CatalogusPromotion.cs" />
+    <Compile Include="Engine\Furniture\IPageItem.cs" />
+    <Compile Include="Engine\Furniture\PageMeubiItem.cs" />
+    <Compile Include="Engine\Inventory\Furni.cs" />
+    <Compile Include="Engine\Inventory\IInventoryItem.cs" />
+    <Compile Include="Engine\Inventory\InventoryContent.cs" />
+    <Compile Include="Engine\Inventory\InventoryItemSection.cs" />
+    <Compile Include="Engine\Inventory\InventoryManager.cs" />
+    <Compile Include="Engine\Navigator\NavCategory.cs" />
+    <Compile Include="Engine\Room\FloorGenerator.cs" />
+    <Compile Include="Engine\Room\FurniManager.cs" />
+    <Compile Include="Engine\Room\Meubi.cs" />
+    <Compile Include="Engine\Room\RoomManager.cs" />
+    <Compile Include="Engine\Util\InteractionType.cs" />
+    <Compile Include="Engine\Util\ItemBehaviourUtility.cs" />
+    <Compile Include="Engine\Catalogus\CatalogusPage.cs" />
+    <Compile Include="ImagesCode\Catalogus\CataBox.cs" />
+    <Compile Include="ImagesCode\Catalogus\CatalogusContent.cs" />
     <Compile Include="ImagesCode\Navigator\NavigatorContent.cs" />
     <Compile Include="Engine\Navigator\NavigatorManager.cs" />
     <Compile Include="Engine\Room\Group.cs" />
     <Compile Include="Engine\Room\RoomEvent.cs" />
-    <Compile Include="Engine\Room\RoomData.cs" />
+    <Compile Include="Engine\Navigator\RoomData.cs" />
     <Compile Include="Engine\User\User.cs" />
     <Compile Include="ImagesCode\GameScreenManager.cs" />
     <Compile Include="ImagesCode\Hoteloverzicht\HotelOverviewContent.cs" />
     <Compile Include="ImagesCode\ImageManager.cs" />
+    <Compile Include="ImagesCode\Navigator\NavRoomSection.cs" />
     <Compile Include="ImagesCode\Overlay\BasicInformationContent.cs" />
     <Compile Include="ImagesCode\Overlay\OverlayRenderer.cs" />
     <Compile Include="ImagesCode\Overlay\ToolbarContent.cs" />
     <Compile Include="ImagesCode\Overlay\TransparentBlackBox.cs" />
     <Compile Include="ImagesCode\Splashscreen\SplashScreenManager.cs" />
     <Compile Include="ImagesCode\Util\Button.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\ConstructedButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\DropdownButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\HoverButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\AnimationSwitchHoverButton.cs" />
-    <Compile Include="ImagesCode\Navigator\InMenuButton.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\InMenuButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\ScrollButtonArrow.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\ScrollButtonWheel.cs" />
+    <Compile Include="ImagesCode\Util\ButtonTypes\SectionButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\ToggleButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\SwitchHoverButton.cs" />
     <Compile Include="ImagesCode\Util\ButtonTypes\ToggleHoverButton.cs" />
+    <Compile Include="ImagesCode\Util\CloseUI.cs" />
     <Compile Include="ImagesCode\Util\CloseAndInfoUI.cs" />
     <Compile Include="Engine\Communication\LanguageManager.cs" />
+    <Compile Include="ImagesCode\Util\Combiner\SectionCombiner.cs" />
+    <Compile Include="ImagesCode\Util\Combiner\Sections\CataItemSection.cs" />
+    <Compile Include="ImagesCode\Util\Combiner\Sections\CataPageSection.cs" />
     <Compile Include="ImagesCode\Util\Font.cs" />
+    <Compile Include="ImagesCode\Util\Furnitype.cs" />
     <Compile Include="ImagesCode\Util\Image.cs" />
+    <Compile Include="ImagesCode\Util\Math\FontUtil.cs" />
     <Compile Include="ImagesCode\Util\Math\Vector2i.cs" />
     <Compile Include="ImagesCode\Util\ScrollView.cs" />
-    <Compile Include="ImagesCode\Util\TextField.cs" />
+    <Compile Include="ImagesCode\Util\Textfield\TextField.cs" />
+    <Compile Include="ImagesCode\Util\TopButtonsContainer.cs" />
     <Compile Include="ResizeStatus.cs" />
     <Compile Include="1Client\Communication\Packets\IPacketEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Handshake\GenerateSecretKeyEvent.cs" />
@@ -340,6 +406,48 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\Client\Items\book_rare\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\gld_badgewall_tall\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\modern_c17_pug\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\pcnc_carrot\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\pcnc_wbench\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\pcnc_wood\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\picnic_blanket_blu\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\picnic_blanket_yel\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\picnic_food2\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\room_info15_bench\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\room_info15_shrub1\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\room_info15_shrub2\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\room_info15_shrub3\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\room_info15_tree1\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Client\ToolBarBottom\FriendBar\FindFriends.png" />
     <Content Include="Content\Client\ToolBarBottom\FriendBar\FriendList.png" />
     <Content Include="Content\Client\ToolBarBottom\FriendBar\PrivateChat.png" />
@@ -366,6 +474,9 @@
     <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\Omkleden.png" />
     <Content Include="Content\Client\ToolBarBottom\ToolBar\ProfileSubBar\TalentenMeter.png" />
     <Content Include="Content\Client\ToolBarBottom\ToolBar\ToolBar.png" />
+    <Content Include="Content\furnidata.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\figuremap.xml" />
     <Content Include="Content\HotelOverzicht\Backdrop.png" />
     <Content Include="Content\HotelOverzicht\backdrop_top_stretch.png" />
@@ -453,8 +564,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Content\catalogue\cata_promos\" />
     <Folder Include="Content\Client\ToolBarBottom\ChatBar\" />
     <Folder Include="Content\Menu\Icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Monogame-Textbox-master\MonoGame-Textbox\MonoGame-Textbox.csproj">
+      <Project>{60845196-31B8-487A-8F25-83EAC47DA83D}</Project>
+      <Name>MonoGame-Textbox</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

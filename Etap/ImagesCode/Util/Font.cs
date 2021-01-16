@@ -10,26 +10,35 @@ using System.Threading.Tasks;
 
 namespace Util
 {
-    class Font
+    class Font : ICloneable
     {
-        private SpriteFont font { get; set; }
+        internal SpriteFont font { get; set; }
         internal Vector2 Position { get; set; }
         internal Color Color { get; set; }
         internal String message { get; set; }
         internal String messageOrginal { get; set; }
+        internal Vector2 originPosition { get; set; }
 
-        public Font(ContentManager content, String path, String text)
+        public Font(Font fnt)
         {
-            font = content.Load<SpriteFont>(path);
-            Position = Vector2.Zero;
-            message = text;
-            messageOrginal = text;
-            Color = Color.White;
+            this.font = fnt.font;
+            this.Position = fnt.Position;
+            this.Color = fnt.Color;
+            this.message = fnt.message;
+            this.messageOrginal = fnt.messageOrginal;
+            this.originPosition = fnt.originPosition;
         }
-        public Font(ContentManager content, String path, String text, Color color)
+
+        public Font(ContentManager content, String path, String text) : this(content, path, text, Color.White, Vector2.Zero)
+        { }
+
+        public Font(ContentManager content, String path, String text, Color color) : this(content, path, text, color, Vector2.Zero)
+        { }
+
+        public Font(ContentManager content, String path, String text, Color color, Vector2 position)
         {
             font = content.Load<SpriteFont>(path);
-            Position = Vector2.Zero;
+            Position = position;
             message = text;
             messageOrginal = text;
             Color = color;
@@ -38,10 +47,12 @@ namespace Util
         public void AddPosition(Vector2 pos)
         {
             Position += pos;
+            originPosition = Position;
         }
         public void SetPosition(Vector2 pos)
         {
             Position = pos;
+            originPosition = Position;
         }
 
         public virtual void Draw(SpriteBatch spriteBatch, Vector2 pos, float depthLayer = 0f, SpriteEffects effects = SpriteEffects.None)
@@ -102,5 +113,10 @@ namespace Util
         public void Show() { hiddenB = false; }
         public void Hide() { hiddenB = true; }
         public bool isHidden() { return hiddenB; }
+
+        public object Clone()
+        {
+            return new Font(this);
+        }
     }
 }

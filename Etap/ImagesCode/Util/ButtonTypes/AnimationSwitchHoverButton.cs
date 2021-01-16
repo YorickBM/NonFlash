@@ -152,7 +152,7 @@ namespace Util.ButtonTypes
 
                 if (getActiveButton().isHovered && !getActiveButton().isClicked)
                 {
-                    if (getActiveButton().color != getActiveButton().originColor) getActiveButton().color = getActiveButton().originColor;
+                    if (getActiveButton().GetColor() != getActiveButton().originColor) getActiveButton().SetColor(getActiveButton().originColor);
 
                     if (!getActiveButton().t.Enabled)
                         getActiveButton().loadFrame(2);
@@ -168,14 +168,14 @@ namespace Util.ButtonTypes
                     }
 
                     if (getActiveButton().clickColor != null)
-                        getActiveButton().color = getActiveButton().clickColor;
+                        getActiveButton().SetColor(getActiveButton().clickColor);
                 }
                 else
                 {
                     if (!getActiveButton().t.Enabled)
                     {
                         getActiveButton().loadFrame(0);
-                        if (getActiveButton().color != getActiveButton().originColor) getActiveButton().color = getActiveButton().originColor;
+                        if (getActiveButton().GetColor() != getActiveButton().originColor) getActiveButton().SetColor(getActiveButton().originColor);
                     }
                 }
             }

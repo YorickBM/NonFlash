@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Menu/Navigator/backdrop.png</SourceFile>
+  <SourceFile>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Navigator/backdrop.png</SourceFile>
   <SourceTime>2020-11-02T22:16:31.507936+01:00</SourceTime>
-  <DestFile>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/bin/Windows/Content/Menu/Navigator/backdrop.xnb</DestFile>
-  <DestTime>2020-11-07T19:25:40.8675127+01:00</DestTime>
+  <DestFile>D:/Yorick/OneDrive/NonFlash/Etap/Content/bin/Windows/Content/Menu/Navigator/backdrop.xnb</DestFile>
+  <DestTime>2020-12-15T09:57:55.8315208+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

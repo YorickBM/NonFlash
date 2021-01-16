@@ -88,6 +88,7 @@ namespace Util.ButtonTypes
             activeButton += 1;
             if (activeButton == buttons.Count()) activeButton = 0;
         }
+        public void SetActive(int num) { activeButton = num; }
 
         public void setSize(Vector2 newSize)
         {
@@ -135,7 +136,7 @@ namespace Util.ButtonTypes
                     if (!getActiveButton().t.Enabled)
                         getActiveButton().loadFrame(2);
 
-                    if (getActiveButton().color != getActiveButton().originColor) getActiveButton().color = getActiveButton().originColor;
+                    if (getActiveButton().GetColor() != getActiveButton().originColor) getActiveButton().SetColor(getActiveButton().originColor);
                 }
                 else if (getActiveButton().isClicked)
                 {
@@ -147,14 +148,14 @@ namespace Util.ButtonTypes
                         timer.Enabled = true;
                     }
                     if (getActiveButton().clickColor != null)
-                        getActiveButton().color = getActiveButton().clickColor;
+                        getActiveButton().SetColor(getActiveButton().clickColor);
                 }
                 else
                 {
                     if (!getActiveButton().t.Enabled)
                     {
                         getActiveButton().loadFrame(0);
-                        if (getActiveButton().color != getActiveButton().originColor) getActiveButton().color = getActiveButton().originColor;
+                        if (getActiveButton().GetColor() != getActiveButton().originColor) getActiveButton().SetColor(getActiveButton().originColor);
                     }
                 }
             }

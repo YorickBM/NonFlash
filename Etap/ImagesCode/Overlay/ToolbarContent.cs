@@ -10,6 +10,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Util.ButtonTypes;
 using Util;
+using Etap.Utilities;
+using Etap;
+using Etap.Communication.Packets.Outgoing.Navigator;
+using Etap.Communication.Packets.Outgoing.Rooms.Engine;
 
 namespace Overlay
 {
@@ -79,12 +83,12 @@ namespace Overlay
             background = new Image(content, "Client/ToolBarBottom/ToolBar/Background/Background", new Vector2(GameScreenManager.Instance.Dimensions.X, 47));
 
             HOHK = new SwitchHoverButton(content, new Vector2(33, 32), 
-                new SwitchHoverButtonData("Client/ToolBarBottom/ToolBar/HomeRoom", () => { HOHK.toggle(); }, new Vector2(0, 18), new Vector2i(3, 1), Color.PaleVioletRed),
-                new SwitchHoverButtonData("Client/ToolBarBottom/ToolBar/HotelOverview", () => { HOHK.toggle(); }, new Vector2(0, 18), new Vector2i(3, 1), Color.PaleVioletRed));
-            rooms = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Rooms", new Vector2i(3, 1), () => { GameScreenManager.Instance.getNavigatorManager().ToggleNavigator(); }, Color.PaleVioletRed);
-            shop = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Catalogue", new Vector2i(3, 1), () => { Console.WriteLine("shop"); }, Color.PaleVioletRed); //Onscherp
+                new SwitchHoverButtonData("Client/ToolBarBottom/ToolBar/HomeRoom", () => { RetroEnvironment.GetGame().GetClientManager().SendPacket(new GetHomeRoomEvent()); }, new Vector2(0, 18), new Vector2i(3, 1), Color.PaleVioletRed),
+                new SwitchHoverButtonData("Client/ToolBarBottom/ToolBar/HotelOverview", () => { RetroEnvironment.GetGame().GetClientManager().SendPacket(new GoToHotelViewEvent()); }, new Vector2(0, 18), new Vector2i(3, 1), Color.PaleVioletRed));
+            rooms = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Rooms", new Vector2i(3, 1), () => { GameScreenManager.Instance.GetNavigatorManager().ToggleNavigator(); }, Color.PaleVioletRed);
+            shop = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Catalogue", new Vector2i(3, 1), () => { GameScreenManager.Instance.GetCatalogusManager().ToggleCatalogus(); }, Color.PaleVioletRed); //Onscherp
             buildersClub = new HoverButton(content, "Client/ToolBarBottom/ToolBar/BuildersClub", new Vector2i(3, 1), () => { Console.WriteLine("buildersClub"); }, Color.PaleVioletRed);
-            myItems = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Inventory", new Vector2i(3, 1), () => { Console.WriteLine("myItems"); }, Color.PaleVioletRed);
+            myItems = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Inventory", new Vector2i(3, 1), () => { GameScreenManager.Instance.GetInventoryManager().Toggle(); }, Color.PaleVioletRed);
             myProfile = new HoverButton(content, "Client/ToolBarBottom/ToolBar/GameCenter", new Vector2i(1, 1), () => { Console.WriteLine("myProfile"); }, Color.PaleVioletRed);
             camera = new HoverButton(content, "Client/ToolBarBottom/ToolBar/Camera", new Vector2i(3, 1), () => { Console.WriteLine("camera"); }, Color.PaleVioletRed);
             dividerOne = new Image(content, "Client/ToolBarBottom/ToolBar/Divider", Vector2.Zero);
@@ -156,6 +160,9 @@ namespace Overlay
             if (GameScreenManager.Instance.Dimensions.X != background.dimensions.X)
                 background.resize((int)GameScreenManager.Instance.Dimensions.X, 47);
 
+            if (GameScreenManager.Instance.GetRoomManager().isInRoom()) HOHK.SetActive(1);
+            else HOHK.SetActive(0);
+
             edgeTop.Update(gameTime);
             edgeBottom.Update(gameTime);
             background.Update(gameTime);
@@ -214,7 +221,7 @@ namespace Overlay
             buildersClub.Draw(spriteBatch, offset + iconOffset + new Vector2(0, (int)((50 / 2) - (buildersClub.framesDimensions.Y / 2))), 0.81f);
             iconOffset += new Vector2(buildersClub.framesDimensions.X + 16, 0);
 
-            if (GameScreenManager.Instance.isInRoom())
+            if (GameScreenManager.Instance.GetRoomManager().isInRoom())
             {
                 myItems.Enable();
                 myItems.Draw(spriteBatch, offset + iconOffset + new Vector2(0, (int)((50 / 2) - (myItems.framesDimensions.Y / 2))), 0.81f);
@@ -227,7 +234,7 @@ namespace Overlay
             myProfile.Draw(spriteBatch, offset + iconOffset + new Vector2(0, (int)((50 / 2) - (myProfile.framesDimensions.Y / 2))), 0.81f);
             iconOffset += new Vector2(myProfile.framesDimensions.X + 16, 0);
 
-            if (GameScreenManager.Instance.isInRoom())
+            if (GameScreenManager.Instance.GetRoomManager().isInRoom())
             {
                 camera.Enable();
                 camera.Draw(spriteBatch, offset + iconOffset + new Vector2(0, 2 + (int)((50 / 2) - (camera.framesDimensions.Y / 2))), 0.81f);

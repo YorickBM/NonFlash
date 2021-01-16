@@ -18,10 +18,11 @@ namespace Util.ButtonTypes
             this.Enable();
             base.Show();
             this.clickColor = clickColor;
-            originColor = color;
+            originColor = GetColor();
         }
 
         internal bool isHovered = false;
+        public void SetAction(MyAction action) { clickAction = action; }
 
         public override void Update(GameTime gameTime)
         {
@@ -44,7 +45,7 @@ namespace Util.ButtonTypes
 
                 if (isHovered && !isClicked)
                 {
-                    if (color != originColor) color = originColor;
+                    if (GetColor() != originColor) SetColor(originColor);
                     if (!t.Enabled)
                         loadFrame(2);
                 }
@@ -56,14 +57,14 @@ namespace Util.ButtonTypes
                         clickAction.Invoke();
                         t.Enabled = true;
                         if (clickColor != null)
-                            color = clickColor;
+                            SetColor(clickColor);
                     }
                 }
                 else
                 {
                     if (!t.Enabled)
                     {
-                        if (color != originColor) color = originColor;
+                        if (GetColor() != originColor) SetColor(originColor);
                         loadFrame(0);
                     }
                 }

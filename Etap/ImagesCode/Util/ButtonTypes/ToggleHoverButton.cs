@@ -46,7 +46,7 @@ namespace Util.ButtonTypes
         public Color color { get; set; }
     }
 
-    class ToggleHoverButton
+    class ToggleHoverButton : ICloneable
     { 
         List<ToggleHoverButtonData> data;
         List<HoverButton> buttons;
@@ -55,6 +55,28 @@ namespace Util.ButtonTypes
         Timer timer;
         Vector2i size;
         Vector2i originalSize;
+
+        public ToggleHoverButton(ToggleHoverButton thvb)
+        {
+            buttons = new List<HoverButton>();
+            data = new List<ToggleHoverButtonData>();
+            this.size = new Vector2i(thvb.size.X, thvb.size.Y);
+            originalSize = new Vector2i(thvb.originalSize.X, thvb.originalSize.Y);
+
+            foreach (ToggleHoverButtonData dataItem in thvb.data)
+                data.Add(dataItem);
+
+            foreach (HoverButton dataItem in thvb.buttons)
+                buttons.Add(dataItem);
+
+            timer = new Timer(200);
+            timer.Elapsed += new ElapsedEventHandler(timer_reset);
+        }
+
+        public object Clone()
+        {
+            return new ToggleHoverButton(this);
+        }
 
         public ToggleHoverButton(ContentManager content, Vector2i size, params ToggleHoverButtonData[] dataList)
         {
@@ -83,6 +105,8 @@ namespace Util.ButtonTypes
             return buttons[activeButton];
         }
 
+        public void SetAction(MyAction action, int activeButton) { buttons[activeButton].SetAction(action); }
+
         public void toggle()
         {
             activeButton += 1;
@@ -110,6 +134,14 @@ namespace Util.ButtonTypes
         public void SetClick(bool value)
         {
             getActiveButton().isClicked = value;
+        }
+        public void SetActive(bool value)
+        {
+            Clicked = value;
+        }
+        public bool GetActive()
+        {
+            return Clicked;
         }
 
         public void Update(GameTime gameTime, bool rectangleCalc = true)
@@ -140,7 +172,7 @@ namespace Util.ButtonTypes
                 if (!btn.t.Enabled)
                     btn.loadFrame(2);
 
-                if (btn.color != btn.originColor) btn.color = btn.originColor;
+                if (btn.GetColor() != btn.originColor) btn.SetColor(btn.originColor);
             } else if (btn.isClicked) {
                 btn.loadFrame(1);
 

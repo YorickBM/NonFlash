@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etap", "Etap\Etap.csproj", "{D6B556AD-BCEC-43D7-9F5C-00A016BCE7B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60845196-31B8-487A-8F25-83EAC47DA83D} = {60845196-31B8-487A-8F25-83EAC47DA83D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame-Textbox", "..\Monogame-Textbox-master\MonoGame-Textbox\MonoGame-Textbox.csproj", "{60845196-31B8-487A-8F25-83EAC47DA83D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +24,14 @@ Global
 		{D6B556AD-BCEC-43D7-9F5C-00A016BCE7B4}.Release|Any CPU.ActiveCfg = Release|x86
 		{D6B556AD-BCEC-43D7-9F5C-00A016BCE7B4}.Release|x86.ActiveCfg = Release|x86
 		{D6B556AD-BCEC-43D7-9F5C-00A016BCE7B4}.Release|x86.Build.0 = Release|x86
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Debug|x86.Build.0 = Debug|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Release|x86.ActiveCfg = Release|Any CPU
+		{60845196-31B8-487A-8F25-83EAC47DA83D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

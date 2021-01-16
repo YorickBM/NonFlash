@@ -47,6 +47,8 @@ namespace Util
             allowRender = false;
         }
 
+        internal Vector2i GetSize() { return size; }
+
         internal void SetSize(int width, int height)
         {
             size = new Vector2i(width, height);

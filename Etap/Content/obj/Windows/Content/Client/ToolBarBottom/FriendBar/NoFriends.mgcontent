@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/NoFriends.png</SourceFile>
+  <SourceFile>D:/Yorick/OneDrive/NonFlash/Etap/Content/Client/ToolBarBottom/FriendBar/NoFriends.png</SourceFile>
   <SourceTime>2020-10-31T21:23:35.3886891+01:00</SourceTime>
-  <DestFile>C:/Users/yoric/OneDrive/NonFlash/Etap/Content/bin/Windows/Content/Client/ToolBarBottom/FriendBar/NoFriends.xnb</DestFile>
-  <DestTime>2020-11-07T19:25:40.1315142+01:00</DestTime>
+  <DestFile>D:/Yorick/OneDrive/NonFlash/Etap/Content/bin/Windows/Content/Client/ToolBarBottom/FriendBar/NoFriends.xnb</DestFile>
+  <DestTime>2020-12-15T09:57:55.1005209+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

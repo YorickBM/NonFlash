@@ -1,20 +1,26 @@
-﻿using Engine.Navigator;
+﻿using Engine.Catalogus;
+using Engine.Inventory;
+using Engine.Navigator;
 using Etap.Communication.Packets.Incoming.Handshake;
 using Etap.Communication.Packets.Outgoing.Misc;
+using Etap.Engine.Room;
 using Etap.Utilities;
 using Hoteloverzicht;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using MonoGame_Textbox;
 using Overlay;
 using Retro.Communication.Packets.Outgoing.Misc;
 using Splashscreen;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 using Util;
 
 namespace Etap.ImagesCode
@@ -22,11 +28,6 @@ namespace Etap.ImagesCode
     class GameScreenManager
     {
         private static GameScreenManager instance;
-
-        internal NavigatorManager GetNavigatorManager()
-        {
-            return navigatorManager;
-        }
 
         internal int ClientID = -1;
 
@@ -47,15 +48,55 @@ namespace Etap.ImagesCode
         internal OverlayRenderer overlayRenderer;
         internal HotelOverviewContent hotelOverview;
         internal SplashScreenManager splashScreenManager;
+
         private NavigatorManager navigatorManager;
-        internal NavigatorManager getNavigatorManager() { return navigatorManager; }
+        private RoomManager roomManager;
+        private FurniManager furniManager;
+        private CatalogusManager catalogusManager;
+        private InventoryManager inventoryManager;
+
+        internal Image catalogusnotFoundIcon;
+
+        private ContentManager _contentManager;
+        private Dictionary<int, Furnitype> _furnitypes;
+
+        internal NavigatorManager GetNavigatorManager()
+        {
+            return navigatorManager;
+        }
+        internal RoomManager GetRoomManager()
+        {
+            return roomManager;
+        }
+        internal FurniManager GetFurniManager()
+        {
+            return furniManager;
+        }
+        internal CatalogusManager GetCatalogusManager()
+        {
+            return catalogusManager;
+        }
+        internal InventoryManager GetInventoryManager()
+        {
+            return inventoryManager;
+        }
 
         internal Color BackgroundColor = new Color(13, 20, 27);
+
+        internal ContentManager GetContentManager()
+        {
+            return _contentManager;
+        }
+
         internal Vector2i Dimensions = new Vector2i(1600, 900); //Min Width = 1000;
         internal bool Quit;
 
         public void LoadContent(ContentManager content)
         {
+            _contentManager = content;
+            _furnitypes = new Dictionary<int, Furnitype>();
+            loadFurniXml();
+
             splashScreenManager = new SplashScreenManager(content, new Vector2i(0, 5));
             splashScreenManager.Start();
 
@@ -64,18 +105,42 @@ namespace Etap.ImagesCode
             hotelOverview = new HotelOverviewContent(content, Vector2.Zero);
 
             navigatorManager = new NavigatorManager(content);
+            roomManager = new RoomManager(content);
+            furniManager = new FurniManager();
+            catalogusManager = new CatalogusManager(content);
+            inventoryManager = new InventoryManager(content);
 
             splashScreenManager.setPercentage(38);
+
+            catalogusnotFoundIcon = new Image(content, "catalogue/icons/icon_1", Vector2.Zero);
 
             Thread thr = new Thread(() => SplashProgressThread());
             thr.Start();
         }
 
+        public Furnitype GetFurniTypeBySpriteId(int id)
+        {
+            Furnitype outType;
+            _furnitypes.TryGetValue(id, out outType);
+            return outType;
+        }
+
+        public void loadFurniXml()
+        {
+            string text = File.ReadAllText(@"Content/furnidata.xml");
+            var sr = new System.IO.StringReader(text);
+            var xs = new XmlSerializer(typeof(Furnidata));
+
+            var result = xs.Deserialize(sr);
+            Furnidata furnidata = (Furnidata)result;
+
+            foreach (Furnitype type in furnidata.roomitemtypes)
+                if(!_furnitypes.ContainsKey(type.id)) _furnitypes.Add(type.id, type);
+        }
+
         private void SplashProgressThread()
         {
             int UserID = 1;
-            Console.WriteLine(UserID);
-
             Logger.Debug("Initializing Clientsided Server");
             Logger.Info("Please enter SSOTicket:  ");
             string ssoTicket = "";
@@ -97,6 +162,11 @@ namespace Etap.ImagesCode
             RetroEnvironment.GetGame().GetClientManager().SendPacket(new InfoRetrieveEvent());
             RetroEnvironment.GetGame().GetClientManager().SendPacket(new EventTrackerEvent());
 
+            splashScreenManager.setPercentage(58);
+            Thread.Sleep(500);
+
+            FloorGenerator.Initialize();
+
             splashScreenManager.setPercentage(76);
             Logger.DebugWarn("Waiting on Connection Confirmation");
             while (!RetroEnvironment.ConnectionIsSucces && !RetroEnvironment.ShutdownStarted)
@@ -109,17 +179,29 @@ namespace Etap.ImagesCode
             SplashscreenFinish();
         }
 
-        private bool inRoom = true;
-        public bool isInRoom() { return inRoom; }
-        public void ExitRoom() { inRoom = false; }
-        public void EnterRoom() { inRoom = true; }
-
         public void Draw()
         {
-            splashScreenManager.Draw(this.SpriteBatch);
-            hotelOverview.Draw(this.SpriteBatch);
-            overlayRenderer.Draw(this.SpriteBatch);
-            navigatorManager.Draw(this.SpriteBatch);
+            try
+            {
+                splashScreenManager.Draw(this.SpriteBatch);
+                if (GetRoomManager().isInRoom())
+                {
+                    GetRoomManager().Draw(this.SpriteBatch);
+                }
+                else
+                {
+                    hotelOverview.Draw(this.SpriteBatch);
+                }
+                overlayRenderer.Draw(this.SpriteBatch);
+                navigatorManager.Draw(this.SpriteBatch);
+                catalogusManager.Draw(this.SpriteBatch);
+                inventoryManager.Draw(this.SpriteBatch);
+
+            }
+            catch(Exception ex)
+            {
+                Logger.Error("GameScreenManager Draw Error!!\n", ex);
+            }
         }
 
         public void SplashscreenFinish()
@@ -132,7 +214,7 @@ namespace Etap.ImagesCode
 
         public void LoadOverview()
         {
-            ExitRoom();
+            GetRoomManager().ExitRoom();
             hotelOverview.EnterOverview();
         }
 
@@ -142,6 +224,9 @@ namespace Etap.ImagesCode
             overlayRenderer.UnloadContent();
             hotelOverview.UnloadContent();
             navigatorManager.UnloadContent();
+            GetRoomManager().UnloadContent();
+            catalogusManager.UnloadContent();
+            inventoryManager.UnloadContent();
         }
 
         public void Update(GameTime gameTime)
@@ -150,6 +235,8 @@ namespace Etap.ImagesCode
             hotelOverview.Update(gameTime);
             overlayRenderer.Update(gameTime);
             navigatorManager.Update(gameTime);
+            catalogusManager.Update(gameTime);
+            inventoryManager.Update(gameTime);
         }
     }
 }
