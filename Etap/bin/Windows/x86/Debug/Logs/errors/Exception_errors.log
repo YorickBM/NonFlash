@@ -31915,3 +31915,23 @@ System.ArgumentException: An item with the same key has already been added.
    at Etap.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Communication\Packets\PacketManager.cs:line 122
    at Etap.Hotel.GameClients.GameClient.Parser_OnNewPacket(ClientPacket Message) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Hotel\GameClients\GameClient.cs:line 107
 
+
+Exception:
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   at Engine.Inventory.InventoryManager.RemoveItem(Int32 itemId) in D:\Yorick\OneDrive\NonFlash\Etap\Engine\Inventory\InventoryManager.cs:line 141
+   at Etap.Communication.Packets.Incoming.Inventory.Furni.FurniListRemoveComposer.Parse(GameClient session, ClientPacket packet) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListRemoveComposer.cs:line 17
+   at Etap.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Communication\Packets\PacketManager.cs:line 122
+   at Etap.Hotel.GameClients.GameClient.Parser_OnNewPacket(ClientPacket Message) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Hotel\GameClients\GameClient.cs:line 107
+
+
+Exception:
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   at Engine.Inventory.InventoryManager.RemoveItem(Int32 itemId) in D:\Yorick\OneDrive\NonFlash\Etap\Engine\Inventory\InventoryManager.cs:line 142
+   at Etap.Communication.Packets.Incoming.Inventory.Furni.FurniListRemoveComposer.Parse(GameClient session, ClientPacket packet) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListRemoveComposer.cs:line 17
+   at Etap.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Communication\Packets\PacketManager.cs:line 122
+   at Etap.Hotel.GameClients.GameClient.Parser_OnNewPacket(ClientPacket Message) in D:\Yorick\OneDrive\NonFlash\Etap\1Client\Hotel\GameClients\GameClient.cs:line 107
+

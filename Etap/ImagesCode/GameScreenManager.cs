@@ -80,6 +80,10 @@ namespace Etap.ImagesCode
         {
             return inventoryManager;
         }
+        internal OverlayRenderer GetOverlayRenderer()
+        {
+            return overlayRenderer;
+        }
 
         internal Color BackgroundColor = new Color(13, 20, 27);
 
@@ -106,7 +110,7 @@ namespace Etap.ImagesCode
 
             navigatorManager = new NavigatorManager(content);
             roomManager = new RoomManager(content);
-            furniManager = new FurniManager();
+            furniManager = new FurniManager(content);
             catalogusManager = new CatalogusManager(content);
             inventoryManager = new InventoryManager(content);
 
@@ -186,7 +190,14 @@ namespace Etap.ImagesCode
                 splashScreenManager.Draw(this.SpriteBatch);
                 if (GetRoomManager().isInRoom())
                 {
-                    GetRoomManager().Draw(this.SpriteBatch);
+                    try
+                    {
+                        GetRoomManager().Draw(this.SpriteBatch);
+                        GetFurniManager().Draw(this.SpriteBatch);
+                    }catch(Exception ex)
+                    {
+                        Logger.Error(ex);
+                    }
                 }
                 else
                 {
@@ -227,6 +238,7 @@ namespace Etap.ImagesCode
             GetRoomManager().UnloadContent();
             catalogusManager.UnloadContent();
             inventoryManager.UnloadContent();
+            GetFurniManager().UnloadContent();
         }
 
         public void Update(GameTime gameTime)
@@ -237,6 +249,12 @@ namespace Etap.ImagesCode
             navigatorManager.Update(gameTime);
             catalogusManager.Update(gameTime);
             inventoryManager.Update(gameTime);
+
+            if (GetRoomManager().isInRoom())
+            {
+                GetFurniManager().Update(gameTime);
+                GetRoomManager().Update(gameTime);
+            }
         }
     }
 }

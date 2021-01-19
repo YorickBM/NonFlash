@@ -361,6 +361,18 @@
 /processorParam:TextureFormat=Color
 /build:Client/Floor/center.png
 
+#begin Client/Floor/mouse.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Client/Floor/mouse.png
+
 #begin Client/Items/book_rare/0_0_0_0.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -2819,6 +2831,34 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/DropdownButton.spritefont
 
+#begin Fonts/Furni/button.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/Furni/button.spritefont
+
+#begin Fonts/Furni/desc.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/Furni/desc.spritefont
+
+#begin Fonts/Furni/title.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/Furni/title.spritefont
+
+#begin Fonts/Furni/user.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/Furni/user.spritefont
+
 #begin Fonts/InMenuButton.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -2833,34 +2873,6 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/Inventory/amountRecycle.spritefont
 
-#begin Fonts/Inventory/amountRecycle.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/amountRecycle.spritefont
-
-#begin Fonts/Inventory/amountRecycle.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/amountRecycle.spritefont
-
-#begin Fonts/Inventory/amountTrade.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/amountTrade.spritefont
-
-#begin Fonts/Inventory/amountTrade.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/amountTrade.spritefont
-
 #begin Fonts/Inventory/amountTrade.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -2875,54 +2887,12 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/Inventory/EmptyBody.spritefont
 
-#begin Fonts/Inventory/EmptyBody.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/EmptyBody.spritefont
-
-#begin Fonts/Inventory/EmptyBody.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/EmptyBody.spritefont
-
 #begin Fonts/Inventory/EmptyButton.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
 /build:Fonts/Inventory/EmptyButton.spritefont
-
-#begin Fonts/Inventory/EmptyButton.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/EmptyButton.spritefont
-
-#begin Fonts/Inventory/EmptyButton.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/EmptyButton.spritefont
-
-#begin Fonts/Inventory/EmptyHeader.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/EmptyHeader.spritefont;Fonts/Inventory/EmptyHead.spritefont
-
-#begin Fonts/Inventory/EmptyHeader.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/EmptyHeader.spritefont
 
 #begin Fonts/Inventory/EmptyHeader.spritefont
 /importer:FontDescriptionImporter
@@ -2944,27 +2914,6 @@
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
 /build:Fonts/Inventory/placeButton.spritefont
-
-#begin Fonts/Inventory/placeButton.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/placeButton.spritefont
-
-#begin Fonts/Inventory/selectedItem.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/selectedItem.spritefont
-
-#begin Fonts/Inventory/selectedItem.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Fonts/Inventory/selectedItem.spritefont
 
 #begin Fonts/Inventory/selectedItem.spritefont
 /importer:FontDescriptionImporter
@@ -3806,6 +3755,102 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Menu/ContentBar/ContentBarRightLayer.png
+
+#begin Menu/Furni/backdrop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/backdrop.png
+
+#begin Menu/Furni/button.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/button.png
+
+#begin Menu/Furni/button.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/button.png
+
+#begin Menu/Furni/close.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/close.png
+
+#begin Menu/Furni/crn.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/crn.png
+
+#begin Menu/Furni/crnB.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/crnB.png
+
+#begin Menu/Furni/divider.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/divider.png
+
+#begin Menu/Furni/user.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu/Furni/user.png
 
 #begin Menu/HC/BackdropHC.png
 /importer:TextureImporter

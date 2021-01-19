@@ -138,9 +138,9 @@ namespace Engine.Inventory
         }
         internal void ActivateItem()
         {
-            Logger.Debug("Active Item:", item.GetItemId());
+            Logger.Debug("Active Item:", item.GetFurniClass());
 
-            GameScreenManager.Instance.GetInventoryManager().SelectItem(item.GetItemId());
+            GameScreenManager.Instance.GetInventoryManager().SelectItem(item.GetFurniClass());
             GameScreenManager.Instance.GetInventoryManager().GetAllItemSections().ForEach(s => s.Deselect());
             this.Select();
             GameScreenManager.Instance.GetInventoryManager().ForceUpdateItems();

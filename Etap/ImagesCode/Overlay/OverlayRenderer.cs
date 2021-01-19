@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Util;
 
 namespace Overlay
 {
@@ -19,12 +20,13 @@ namespace Overlay
         private bool canRender = false;
         public void Show() { canRender = true; }
         public void Hide() { canRender = false; }
+        public int GetHeight() { return 50; }
 
         public OverlayRenderer(ContentManager content)
         {
             this.content = content;
             bic = new BasicInformationContent(content, -195);
-            tbc = new ToolbarContent(content, 0, -50);
+            tbc = new ToolbarContent(content, 0, -GetHeight());
         }
 
         public void UnloadContent()

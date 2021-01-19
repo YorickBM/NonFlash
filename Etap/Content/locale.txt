@@ -24,3 +24,7 @@ inventory.empty.body=Maybe you already used your funi, or you haven't bought any
 inventory.button.goto.cata=Open the catalogus
 inventory.item.text.noselected=No item selected
 inventory.item.button.placeInRoom=Place in this room
+furni.button.use=Use
+furni.button.remove=Pick Up
+furni.button.rotate=Rotate
+furni.button.move=Move

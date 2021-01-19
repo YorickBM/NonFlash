@@ -1,13 +1,18 @@
-﻿using Etap.Communication.Packets.Outgoing.Navigator;
+﻿using Engine.Inventory;
+using Etap.Communication.Packets.Outgoing.Navigator;
 using Etap.Communication.Packets.Outgoing.Rooms.Connection;
+using Etap.Communication.Packets.Outgoing.Rooms.Engine;
 using Etap.ImagesCode;
 using Etap.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Timers;
+using Util;
 
 namespace Etap.Engine.Room
 {
@@ -18,12 +23,41 @@ namespace Etap.Engine.Room
         public Floor floorDesign;
         public Tile door;
 
+        private GhostMeubi ghostMeubi;
+
+        internal void RemoveMeubByItemId(int itemId)
+        {
+            Meubi s;
+            GetMeubiByItemId(itemId, out s);
+
+            if (s != null)
+            {
+                idSortedMeubis.Remove(itemId);
+                meubis.Remove(s);
+            }
+        }
+
+        private Timer placeDelay;
+
+        private ContentManager _content;
+        Vector2 roomOffset = new Vector2(-140, 20);
+
         public RoomManager(ContentManager content)
         {
+            _content = content;
             meubis = new List<Meubi>();
             idSortedMeubis = new Dictionary<int, Meubi>();
             floorDesign = null;
             door = null;
+            ghostMeubi = null;
+            placeDelay = new Timer(200);
+            placeDelay.Elapsed += PlaceDelay_Elapsed;
+
+        }
+
+        private void PlaceDelay_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            placeDelay.Enabled = false;
         }
 
         public void PrintTiles()
@@ -38,7 +72,7 @@ namespace Etap.Engine.Room
         }
         public void SetDoor(Coordinate cord, int doorDirection)
         {
-            door = new Tile(cord, TileType.DOOR, doorDirection);
+            door = new Tile(_content, cord, TileType.DOOR, doorDirection);
         }
 
         public void UpdateRoomSettings(RoomSettingType type, int value)
@@ -58,19 +92,34 @@ namespace Etap.Engine.Room
             {
                 if (isInRoom())
                 {
-                    Vector2 offset = new Vector2(-140, 20);
-                    if (floorDesign != null)
-                        floorDesign.Draw(spriteBatch, offset);
-                    foreach (Meubi meubi in idSortedMeubis.Values)
-                    {
-                        meubi.Draw(spriteBatch, offset);
-                    }
-                }
-            }
-            catch(Exception ex)
-            {
 
-            }
+                    //TODO: Fix it so floor render can be here
+                    if (floorDesign != null)
+                    {
+                        floorDesign.Draw(spriteBatch, roomOffset);
+                    }
+
+                    foreach (Meubi meubi in idSortedMeubis.Values)
+                        meubi.Draw(spriteBatch, roomOffset);
+
+                    if (ghostMeubi != null)
+                        ghostMeubi.Draw(spriteBatch, roomOffset, floorDesign, 0.2f);
+
+                }
+            } catch { }
+        }
+
+        private bool isClicked = false;
+        public void Update(GameTime gameTime)
+        {
+            var mouseState = Mouse.GetState();
+            if(mouseState.LeftButton == ButtonState.Pressed) GameScreenManager.Instance.GetFurniManager().SelectItem(null);
+
+            foreach (Meubi meubi in idSortedMeubis.Values)
+                meubi.Update(gameTime, roomOffset);
+
+            if (ghostMeubi != null && !ghostMeubi.IsAlive()) ghostMeubi = null;
+            if (ghostMeubi != null) ghostMeubi.Update(gameTime, roomOffset, floorDesign);
         }
         public void UnloadContent()
         {
@@ -87,8 +136,6 @@ namespace Etap.Engine.Room
             Meubi meubi = GetMeubiByCoord(cord);
             if (meubi == null)
                 return;
-
-            Logger.Debug("Updating furniture");
 
             if(!idSortedMeubis.ContainsKey(itemId))
                 idSortedMeubis.Add(itemId, meubi);
@@ -124,6 +171,7 @@ namespace Etap.Engine.Room
         {
             return idSortedMeubis.TryGetValue(itemId, out meubi);
         }
+
         public Meubi GetMeubiByCoord(Coordinate cord)
         {
            foreach(Meubi meubi in meubis)
@@ -136,6 +184,53 @@ namespace Etap.Engine.Room
         public void AddMeubi(Coordinate cord)
         {
             meubis.Add(new Meubi(cord));
+        }
+        public bool UpdateMeubi(int itemId, Coordinate cords, int rot) {
+            Meubi meubi;
+            GetMeubiByItemId(itemId, out meubi);
+
+            if (meubi == null) return false;
+
+            meubi.SetCoordinate(cords);
+            meubi.SetRotationState(rot);
+            return true;
+        }
+
+        //TODO: Ghost furni depth
+        internal void DisplayGhostItem(Furni furni)
+        {
+            try
+            {
+                GameScreenManager.Instance.GetInventoryManager().Close();
+
+                ghostMeubi = new GhostMeubi(_content, furni.GetItemId(), furni.GetSpriteId(), 
+                    () => { ghostMeubi = null; GameScreenManager.Instance.GetInventoryManager().Open(); },
+                    () => { RetroEnvironment.GetGame().GetClientManager().SendPacket(new PlaceObjectEvent(ghostMeubi.GetItemId(), floorDesign.GetMouseTile(roomOffset).GetCoordinate().X, floorDesign.GetMouseTile(roomOffset).GetCoordinate().Z, ghostMeubi.GetRotation())); });
+                placeDelay.Start();
+
+            }
+            catch (Exception ex)
+            {
+                if (furni == null) Logger.Error("Ghost Furni does not exist!");
+                else if(roomOffset == null) Logger.Error("Room offset does not exist!");
+                else Logger.Error(ex);
+            }
+        }
+        internal void UpdateGhostItem(Furni furni)
+        {
+            if(ghostMeubi != null)
+            {
+                DisplayGhostItem(furni);
+            }
+        }
+
+        internal void SetMoveGhostItem(Meubi meubi)
+        {
+            meubi.Hide();
+            ghostMeubi = new GhostMeubi(_content, meubi.GetItemId(), meubi.GetData().id,
+                    () => { ghostMeubi = null; meubi.Show(); },
+                    () => { RetroEnvironment.GetGame().GetClientManager().SendPacket(new MoveObjectEvent(ghostMeubi.GetItemId(), (int)floorDesign.GetMouseTile(roomOffset).GetCoordinate().X, (int)floorDesign.GetMouseTile(roomOffset).GetCoordinate().Z, ghostMeubi.GetRotation())); ghostMeubi = null; });
+            placeDelay.Start();
         }
 
         public bool UpdateCoordByXZ(int x, int z, Coordinate newCord)

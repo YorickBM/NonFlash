@@ -10,6 +10,5 @@ namespace Engine.Inventory
     interface IInventoryItem
     {
         string GetFurniClass();
-        int GetItemId();
     }
 }

@@ -1,5 +1,7 @@
 ﻿using Etap;
 using Etap.Communication.Packets.Outgoing.Inventory.Furni;
+using Etap.ImagesCode;
+using Etap.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -19,6 +21,7 @@ namespace Engine.Inventory
 
         Dictionary<int, Furni> furnis;
         Dictionary<IInventoryItem, int> items;
+
         Furni selectedItem;
 
         Timer UpdateDelay;
@@ -36,6 +39,7 @@ namespace Engine.Inventory
             firstSelect = true;
         }
 
+        public Furni GetSelectedItem() { return selectedItem; }
         private void UpdateDelay_Elapsed(object sender, ElapsedEventArgs e)
         {
             Inventory.UploadFurniture(items);
@@ -49,7 +53,7 @@ namespace Engine.Inventory
 
         public void Toggle()
         {
-            if (Inventory.isOpen()) Close();
+            if (IsOpen()) Close();
             else Open();
         }
         internal void Open()
@@ -60,6 +64,10 @@ namespace Engine.Inventory
         internal void Close()
         {
             Inventory.Close();
+        }
+        internal bool IsOpen()
+        {
+            return Inventory.isOpen();
         }
 
         internal List<InventoryItemSection> GetAllItemSections()
@@ -77,13 +85,23 @@ namespace Engine.Inventory
             Inventory.UnloadContent();
         }
 
-        public void SelectItem(int itemId)
+        public bool SelectItem(string className)
         {
-            furnis.TryGetValue(itemId, out selectedItem);
+            foreach (Furni furni in furnis.Values)
+            {
+                if (furni.GetFurniClass().Equals(className))
+                {
+                    selectedItem = furni;
+                    return true;
+                }
+            }
+            return false;
         }
 
         public void Reset()
         {
+            Logger.DebugWarn("Resetting inventory");
+
             furnis.Clear();
             items.Clear();
             selectedItem = null;
@@ -125,6 +143,42 @@ namespace Engine.Inventory
                 items.Add(item, 1);
 
             if (!UpdateDelay.Enabled) UpdateDelay.Start();
+        }
+        internal void RemoveItem(int itemId)
+        {
+            bool needToOpen = false;
+            Dictionary<IInventoryItem, int> newItems = new Dictionary<IInventoryItem, int>();
+            Furni activeItem;
+            furnis.TryGetValue(itemId, out activeItem);
+
+            foreach (KeyValuePair<IInventoryItem, int> itm in items)
+            {
+                if (itm.Key.GetFurniClass().Equals(activeItem.GetFurniClass()))
+                {
+                    if (itm.Value > 1)
+                    {
+                        newItems.Add(itm.Key, itm.Value - 1);
+                    } else
+                    {
+                        needToOpen = true;
+                    }
+                } else
+                {
+                    newItems.Add(itm.Key, itm.Value);
+                }
+            }
+
+            items.Clear();
+            items = newItems;
+
+            if(needToOpen) Open();
+            else
+            {
+                furnis.Remove(activeItem.GetItemId());
+
+                if (!SelectItem(activeItem.GetFurniClass())) Open();
+                else GameScreenManager.Instance.GetRoomManager().UpdateGhostItem(selectedItem);
+            }
         }
 
         public void Draw(SpriteBatch spriteBatch)

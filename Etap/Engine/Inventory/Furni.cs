@@ -38,6 +38,10 @@ namespace Engine.Inventory
         {
             return _itemId;
         }
+        public int GetSpriteId()
+        {
+            return _spriteId;
+        }
 
         public string GetFurniClass()
         {

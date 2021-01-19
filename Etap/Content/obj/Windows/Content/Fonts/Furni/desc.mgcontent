@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Furni/desc.spritefont</SourceFile>
+  <SourceTime>2021-01-19T14:21:56.4139863+01:00</SourceTime>
+  <DestFile>D:/Yorick/OneDrive/NonFlash/Etap/Content/bin/Windows/Content/Fonts/Furni/desc.xnb</DestFile>
+  <DestTime>2021-01-19T14:22:30.9428181+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

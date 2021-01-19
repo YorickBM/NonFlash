@@ -1524,3 +1524,16 @@ D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Inventory\s
 D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Inventory\itemAmount.xnb
 D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Inventory\Furni\backdrop.xnb
 D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Inventory\Furni\backdropSelected.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\Floor\mouse.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Client\Items\stories_oldmusic_mike\offsets.txt
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\backdrop.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\button.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\close.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\crn.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\crnB.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\divider.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Furni\desc.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Furni\title.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Furni\user.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Menu\Furni\user.xnb
+D:\Yorick\OneDrive\NonFlash\Etap\bin\Windows\x86\Debug\Content\Fonts\Furni\button.xnb

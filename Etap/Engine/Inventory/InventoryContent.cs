@@ -87,7 +87,10 @@ namespace Engine.Inventory
             amountTrade = new Font(content, "Fonts/Inventory/amountTrade", "0", new Color(0, 0, 0));
             amountRecycle = new Font(content, "Fonts/Inventory/amountRecycle", "0", new Color(0, 0, 0));
 
-            placeItemButton = new HoverConstructedButton(content, () => { Logger.Debug("Place item in room"); }, new Vector2i(150, 22), 
+            placeItemButton = new HoverConstructedButton(content, () => 
+            {
+                GameScreenManager.Instance.GetRoomManager().DisplayGhostItem(GameScreenManager.Instance.GetInventoryManager().GetSelectedItem());
+            }, new Vector2i(150, 22), 
                 HoverConstructedButtonType.BASIC1,
                 new Color[] { new Color(243, 243, 243), new Color(225, 225, 225), new Color(255, 255, 255) },
                 new Color[] { new Color(217, 217, 217), new Color(163, 163, 163), new Color(238, 238, 238) },

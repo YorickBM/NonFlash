@@ -95,6 +95,7 @@
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Badges\BadgesComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListNotificationComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListRemoveComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Furni\FurniListUpdateComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Purse\CreditBalanceComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Inventory\Purse\HabboActivityPointNotificationComposer.cs" />
@@ -128,6 +129,8 @@
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\HeightMapComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\HomeRoomInfoComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ItemsComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ObjectAddComposer.cs" />
+    <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ObjectRemoveComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ObjectsComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\ObjectUpdateComposer.cs" />
     <Compile Include="1Client\Communication\Packets\Incoming\Rooms\Engine\RoomEntryInfoComposer.cs" />
@@ -165,6 +168,10 @@
     <Compile Include="1Client\Communication\Packets\Outgoing\Navigator\NavigatorSearchEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\GetHomeRoomEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\GetRoomEntryDataEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\MoveObjectEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\PickupObjectEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\PlaceObjectEvent.cs" />
+    <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\Engine\UseFurnitureEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\FloorPlan\FloorPlanEditorRoomPropertiesEvent.cs" />
     <Compile Include="1Client\Communication\Packets\Outgoing\Rooms\FloorPlan\InitializeFloorPlanSessionEvent.cs" />
     <Compile Include="1Client\Hotel\Game.cs" />
@@ -185,6 +192,7 @@
     <Compile Include="Engine\Navigator\NavCategory.cs" />
     <Compile Include="Engine\Room\FloorGenerator.cs" />
     <Compile Include="Engine\Room\FurniManager.cs" />
+    <Compile Include="Engine\Room\GhostMeubi.cs" />
     <Compile Include="Engine\Room\Meubi.cs" />
     <Compile Include="Engine\Room\RoomManager.cs" />
     <Compile Include="Engine\Util\InteractionType.cs" />
@@ -446,6 +454,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Client\Items\room_info15_tree1\offsets.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Client\Items\stories_oldmusic_mike\offsets.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Client\ToolBarBottom\FriendBar\FindFriends.png" />

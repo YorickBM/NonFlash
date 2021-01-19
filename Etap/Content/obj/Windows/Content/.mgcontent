@@ -33,6 +33,7 @@
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/catalogue/promotion-1.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/catalogue/voucher.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Client/Floor/center.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Client/Floor/mouse.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Client/Items/book_rare/0_0_0_0.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Client/Items/book_rare/0_0_0_0_C.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Client/Items/CantFindTextureTextures/item.png</File>
@@ -242,6 +243,10 @@
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/cataPageName.spritefont</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/CataPromoTitle.spritefont</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/DropdownButton.spritefont</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Furni/button.spritefont</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Furni/desc.spritefont</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Furni/title.spritefont</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Furni/user.spritefont</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/InMenuButton.spritefont</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Inventory/amountRecycle.spritefont</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Fonts/Inventory/amountTrade.spritefont</File>
@@ -323,6 +328,13 @@
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarMidLayer.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarRightCorner.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/ContentBar/ContentBarRightLayer.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/backdrop.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/button.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/close.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/crn.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/crnB.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/divider.png</File>
+    <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Furni/user.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/HC/BackdropHC.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/HC/Divider.png</File>
     <File>D:/Yorick/OneDrive/NonFlash/Etap/Content/Menu/Icons/BackdropGOTW.png</File>
@@ -645,7 +657,19 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File>Fonts/UbuntuBold.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
